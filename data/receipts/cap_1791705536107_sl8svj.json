@@ -1,0 +1,15 @@
+{
+  "receiptId": "rec_ws2w04td",
+  "importId": "cap_1791705536107_sl8svj",
+  "projectId": "proj_swo92cmi",
+  "topicId": "top_v1om57h0",
+  "status": "imported",
+  "importedAt": "2026-10-11T07:58:56.127Z",
+  "assetsAdded": 0,
+  "executionParty": "antigravity",
+  "skillId": "workbench-capture",
+  "costPath": "local_free",
+  "quotaStatus": "active",
+  "conflict": null,
+  "warnings": []
+}

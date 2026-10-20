@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791622067152_b8wthk",
+  "projectId": "proj_jr089mf4",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "第一性原理：咨询陪跑与多平台流量变现",
+  "platform": "custom",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

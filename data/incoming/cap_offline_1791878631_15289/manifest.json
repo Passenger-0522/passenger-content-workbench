@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "operation": "capture",
+  "importId": "cap_offline_1791878631_15289",
+  "executionParty": "antigravity",
+  "title": "毕业也能领长达5-10年教育优惠短推",
+  "platform": "x",
+  "rawInput": "现在就算已经毕业了也可以领取教育优惠，时间长达5~10年，海底捞69折，买苹果设备减750",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 离线捕获灵感，等待服务启动自动入库"
+}

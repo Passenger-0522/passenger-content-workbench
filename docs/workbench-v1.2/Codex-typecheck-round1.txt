@@ -1,0 +1,11 @@
+server/index.ts(536,10): error TS2339: Property 'saveMatrixPack' does not exist on type '{ getSettings(): Settings; getPublicSettings(): PublicSettings; updateSettings(newSettings: Partial<Settings>): PublicSettings; ... 35 more ...; restoreBackup(backupTimestamp: string): { ...; }; }'.
+server/index.ts(545,15): error TS2339: Property 'getMatrixPacks' does not exist on type '{ getSettings(): Settings; getPublicSettings(): PublicSettings; updateSettings(newSettings: Partial<Settings>): PublicSettings; ... 35 more ...; restoreBackup(backupTimestamp: string): { ...; }; }'.
+server/index.ts(549,19): error TS2339: Property 'getMatrixPack' does not exist on type '{ getSettings(): Settings; getPublicSettings(): PublicSettings; updateSettings(newSettings: Partial<Settings>): PublicSettings; ... 35 more ...; restoreBackup(backupTimestamp: string): { ...; }; }'.
+server/services/matrix.ts(1,14): error TS2305: Module '"../db.js"' has no exported member 'MatrixPack'.
+server/services/matrix.ts(277,10): error TS2339: Property 'saveMatrixPack' does not exist on type '{ getSettings(): Settings; getPublicSettings(): PublicSettings; updateSettings(newSettings: Partial<Settings>): PublicSettings; ... 35 more ...; restoreBackup(backupTimestamp: string): { ...; }; }'.
+server/services/matrix.ts(286,6): error TS2339: Property 'saveMatrixPack' does not exist on type '{ getSettings(): Settings; getPublicSettings(): PublicSettings; updateSettings(newSettings: Partial<Settings>): PublicSettings; ... 35 more ...; restoreBackup(backupTimestamp: string): { ...; }; }'.
+src/App.tsx(54,19): error TS2345: Argument of type 'DashboardPublishStats' is not assignable to parameter of type 'SetStateAction<KpiStats>'.
+  Type 'DashboardPublishStats' is missing the following properties from type 'KpiStats': completedCount, remainingCount, completionRate, posts
+src/App.tsx(89,17): error TS2345: Argument of type 'DashboardPublishStats' is not assignable to parameter of type 'SetStateAction<KpiStats>'.
+  Type 'DashboardPublishStats' is missing the following properties from type 'KpiStats': completedCount, remainingCount, completionRate, posts
+src/components/SettingsModal.tsx(253,39): error TS2304: Cannot find name 'api'.

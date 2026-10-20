@@ -1,0 +1,776 @@
+[
+  {
+    "id": "matrix-1791532446875-t5hoy",
+    "sourceTitle": "矩阵分发测试",
+    "sourceContent": "测试内容一次创作多平台分发规范验证。",
+    "createdAt": "2026-10-09T07:54:06.875Z",
+    "updatedAt": "2026-10-09T07:54:06.878Z",
+    "platforms": {
+      "wechatArticle": {
+        "platform": "wechatArticle",
+        "platformName": "微信公众号",
+        "primaryFormat": "article",
+        "title": "深度拆解：为什么聪明人都在关注“矩阵分发测试”？",
+        "candidateTitles": [
+          "为什么聪明人都在关注“矩阵分发测试”？",
+          "关于“矩阵分发测试”，这是我看过最透彻的一篇分析",
+          "踩过无数坑后，我总结出关于矩阵分发测试的底层逻辑"
+        ],
+        "content": "很多人常问：为什么同样的赛道，别人做就能拿到结果，自己做却总是处处碰壁？\n\n今天不谈虚头巴脑的理论，只聊真枪实弹的实操复盘。建议泡杯茶，花5分钟认真读完。\n\n---\n\n## 颠覆认知：被大众忽视的根本原因\n\n绝大多数人在做这件事情时，往往把精力耗散在表层的细枝末节上，却忽略了最根本的杠杆支点。\n\n测试内容一次创作多平台分发规范验证。\n\n真正的高手，从来不是靠死磕体力，而是先找准痛点，再搭建自动化与标准化闭环。\n\n---\n\n## 落地实操：拿来即用的关键步骤\n\n把复杂问题简单化，核心只抓这三个动作：\n\n1. **锚定真实需求**：砍掉一切虚假繁荣的自嗨动作，直面最具确定性的核心触点；\n2. **搭建流水线**：利用现代化工具武装自己，让重复动作自动化；\n3. **高频高质量交付**：与其脑海里构思100篇神作，不如每天扎实完成固定指标。\n\n---\n\n## 写在最后\n\n种一棵树最好的时间是十年前，其次是现在。商业世界里最大的成本，永远是信息差与行动迟缓。\n\n> **互动探讨**：关于矩阵分发测试，你目前最头疼的卡点是什么？欢迎在评论区留言交流，每一条我都会认真回复。",
+        "tags": [
+          "深度思考",
+          "个人成长",
+          "商业本质",
+          "超级个体"
+        ],
+        "covers": [
+          {
+            "id": "cover-wechat-1",
+            "name": "微信公众号头图封面 (2.35:1)",
+            "ratio": "2.35:1",
+            "headline": "关于矩阵分发测试的底层真相",
+            "subheadline": "深度长文复盘 · 建议收藏",
+            "visualPrompt": "Editorial graphic banner for WeChat article, subject \"矩阵分发测试\", conceptual modern art, clean background, high typography contrast, 8k resolution --ar 16:9",
+            "layoutNotes": "标准公众号头图比例（2.35:1），右侧为主视觉概念图，左侧留白设计醒目大字标题"
+          }
+        ],
+        "platformTips": "公众号建议在早间 8:30 或晚间 21:00 发送；小标题下方搭配1-2个金句引用块，能大幅提升读者阅读完播率。"
+      },
+      "wechatChannels": {
+        "platform": "wechatChannels",
+        "platformName": "微信视频号",
+        "primaryFormat": "video",
+        "title": "说句大实话：如果你还在搞不懂“矩阵分发测试”，成本太高了！",
+        "candidateTitles": [
+          "说句大实话：关于矩阵分发测试，很多人都理解反了",
+          "3分钟讲透矩阵分发测试的底层逻辑，越早看明白越少走弯路"
+        ],
+        "content": "【开篇前3秒黄金Hook】\n说句得罪人的大实话：\n很多人以为做好“矩阵分发测试”靠的是天赋，其实90%的人连底层逻辑都没摸清。\n\n【核心论点展开】\n上周有个同行朋友和我深聊了两个小时，我告诉他：\n想要真正拿到正向反馈，核心只做三件事：\n第一，别盲目跟风，先算清楚你的投入产出比；\n第二，把繁琐的脏活累活做成标准SOP；\n第三，保持持续交付，用结果说话。\n\n【结尾转化】\n关注我，带你看透商业与个人成长的底层真相。觉得有用记得点赞转发！",
+        "tags": [
+          "视频号热门",
+          "商业认知",
+          "大白话干货",
+          "超级个体"
+        ],
+        "covers": [
+          {
+            "id": "cover-channels-1",
+            "name": "视频号原本视频封面 (6:7 / 9:16)",
+            "ratio": "6:7",
+            "headline": "看懂矩阵分发测试",
+            "subheadline": "少走三年弯路",
+            "visualPrompt": "Vertical video thumbnail, high contrast text overlay, mature and confident entrepreneur expression, cinematic studio lighting --ar 9:16",
+            "layoutNotes": "竖版 6:7 / 9:16，核心大字放在画面上半部，人物视线聚焦镜头，视觉冲击力强"
+          },
+          {
+            "id": "cover-channels-2",
+            "name": "视频号朋友圈/社群转发卡片 (2.35:1)",
+            "ratio": "2.35:1",
+            "headline": "同行绝不会告诉你的内幕真相",
+            "subheadline": "关于矩阵分发测试深度解析",
+            "visualPrompt": "Minimalist social share card banner, clean typographic layout, curiosity-driven design, WeChat moments card style --ar 16:9",
+            "layoutNotes": "横版 2.35:1，专门为微信聊天会话与朋友圈转发卡片设计，文字加粗超醒目，激发点击欲"
+          }
+        ],
+        "platformTips": "视频号属于社交推荐算法，熟人点赞与群转发至关重要；转发封面（2.35:1）将直接决定朋友圈小卡片的点击率！"
+      },
+      "douyin": {
+        "platform": "douyin",
+        "platformName": "抖音",
+        "primaryFormat": "video",
+        "title": "为什么绝大多数人在“矩阵分发测试”上全是无效内耗？揭秘高手做法 #干货分享",
+        "candidateTitles": [
+          "为什么聪明人都不碰传统做法？揭秘矩阵分发测试新打法",
+          "建议反复看三遍！矩阵分发测试保姆级实操指南"
+        ],
+        "content": "【镜头1：快切近景，神情严肃】\n“停一下！如果你现在还在用老办法做矩阵分发测试，你正在交巨额隐形成本！”\n\n【镜头2：白板/手写板特写】\n“很多人以为难在技术，其实难在认知差。\n高手只用这套三步法：\n① 砍掉80%冗余动作；\n② 搭建自动化生产工具箱；\n③ 每日保持稳定交付频率。”\n\n【镜头3：面对镜头，真诚总结】\n“别把简单问题搞复杂，按照这套清单跑一周，没效果你回来找我。\n评论区扣【干货】，送你团队内部完整SOP！”",
+        "secondaryContent": "刷到就是赚到！今天把【矩阵分发测试】的底层玩法彻底扒透。看完建议立刻截图保存！",
+        "tags": [
+          "抖音精选",
+          "创业干货",
+          "认知破局",
+          "效率提升"
+        ],
+        "covers": [
+          {
+            "id": "cover-douyin-1",
+            "name": "抖音竖版视频封面 (9:16)",
+            "ratio": "9:16",
+            "headline": "矩阵分发测试真相大拆解",
+            "subheadline": "高手绝不外传的3条捷径",
+            "visualPrompt": "Douyin dynamic vertical cover, high saturated color contrast, giant bold yellow-white title typography, ultra sharp focus --ar 9:16",
+            "layoutNotes": "竖版 9:16，中央居中超大粗体字，避免底部被点赞评论图标遮挡"
+          }
+        ],
+        "cards": [
+          {
+            "pageIndex": 1,
+            "pageType": "cover",
+            "title": "Card 1：关于矩阵分发测试的大实话",
+            "bulletPoints": [
+              "普通人为什么做不成？",
+              "高手的核心秘密是什么？"
+            ],
+            "visualPrompt": "High contrast hook cover"
+          },
+          {
+            "pageIndex": 2,
+            "pageType": "pain_point",
+            "title": "Card 2：90%的人都陷入这3大误区",
+            "bulletPoints": [
+              "误区一：盲目跟风",
+              "误区二：完美主义拖延",
+              "误区三：没有复盘习惯"
+            ],
+            "visualPrompt": "Pain points comparison card"
+          },
+          {
+            "pageIndex": 3,
+            "pageType": "core_steps",
+            "title": "Card 3：可落地的3步破解法",
+            "bulletPoints": [
+              "第一步：锁定最小可行性闭环",
+              "第二步：善用生产力工具降维打击",
+              "第三步：死磕稳定交付输出"
+            ],
+            "visualPrompt": "Step-by-step SOP checklist"
+          },
+          {
+            "pageIndex": 4,
+            "pageType": "summary_cta",
+            "title": "Card 4：核心总结与互动",
+            "bulletPoints": [
+              "行动永远大于空想",
+              "评论区扣【工作流】免费领取实操资料"
+            ],
+            "visualPrompt": "Engagement card"
+          }
+        ],
+        "platformTips": "抖音前3秒跳出率极其敏感，开头前2句话必须具备反差与痛点；图文模式在抖音流量正旺，建议视频与图文同发。"
+      },
+      "xiaohongshu": {
+        "platform": "xiaohongshu",
+        "platformName": "小红书",
+        "primaryFormat": "image_text",
+        "title": "姐妹们/家人们！关于矩阵分发测试，劝你千万别盲目乱搞😭（纯干货避坑）",
+        "candidateTitles": [
+          "花3个月踩坑总结出来的矩阵分发测试实操手册💡建议收藏！",
+          "被问爆的矩阵分发测试全流程🔥小白也能照着抄作业"
+        ],
+        "content": "最近私信里很多人都在问我关于【矩阵分发测试】到底该怎么落地。\n今天抽空整理了一份超硬核的复盘笔记，纯大白话，绝无套路，看完少走半年弯路！建议先🌟【收藏】再看～\n\n💡 核心认知：\n很多人之所以迟迟拿不到正向反馈，并不是能力不行，而是方向搞反了。\n别总想着一开始就做到100分，先完成，再迭代！\n\n🔥 实操3步清单：\n1️⃣ 拆解痛点：把大目标拆成每天能轻松完成的小任务\n2️⃣ 搭建工具流：善用现代化AI与自动化工具，把效率拉满\n3️⃣ 刻意复盘：每天固定看数据，找出可优化的微小细节\n\n✨ 避坑指南：\n千万不要花大几千去报那种割韭菜的课，公开互联网上的真实经验足够你跑通闭环！\n\n大家目前在做矩阵分发测试时最大的难题是什么？欢迎在评论区聊聊，互相支招～👇",
+        "secondaryContent": "小红书短视频口播要点：语调温和真诚，像朋友当面分享独家私藏经验，多展示操作细节。",
+        "tags": [
+          "小红书干货",
+          "高效生活",
+          "搞钱搞事业",
+          "个人成长",
+          "自媒体运营"
+        ],
+        "covers": [
+          {
+            "id": "cover-xhs-1",
+            "name": "小红书高清封面 (3:4)",
+            "ratio": "3:4",
+            "headline": "矩阵分发测试超全避坑指南",
+            "subheadline": "小白3分钟抄作业 · 亲测有效",
+            "visualPrompt": "Xiaohongshu aesthetic lifestyle cover, 3:4 aspect ratio, pastel cream aesthetic, cozy modern studio background, cute stickers and clean bold typography --ar 3:4",
+            "layoutNotes": "竖版 3:4，顶部放醒目吸睛大字，带精致贴纸图标，中间为真实案例/屏幕展示，高级感拉满"
+          }
+        ],
+        "cards": [
+          {
+            "pageIndex": 1,
+            "pageType": "cover",
+            "title": "Card 1: 封面",
+            "bulletPoints": [
+              "矩阵分发测试保姆级复盘",
+              "手把手教你跑通闭环",
+              "建议收藏备用"
+            ],
+            "visualPrompt": "Aesthetic cover card with bold title"
+          },
+          {
+            "pageIndex": 2,
+            "pageType": "pain_point",
+            "title": "Card 2: 常见踩坑现状",
+            "bulletPoints": [
+              "时间花了很多却没结果？",
+              "不知道第一步从哪开始？",
+              "方向走偏白费精力"
+            ],
+            "visualPrompt": "Comparison card layout"
+          },
+          {
+            "pageIndex": 3,
+            "pageType": "core_steps",
+            "title": "Card 3: 抄作业清单步骤",
+            "bulletPoints": [
+              "明确核心触点",
+              "选择顺手生产力工具",
+              "建立每日执行打卡"
+            ],
+            "visualPrompt": "Checklist card layout"
+          },
+          {
+            "pageIndex": 4,
+            "pageType": "takeaway",
+            "title": "Card 4: 高效秘诀",
+            "bulletPoints": [
+              "利用AI批量跑骨架",
+              "人工注入灵魂与口吻",
+              "持续追踪受众反馈"
+            ],
+            "visualPrompt": "Pro tips card"
+          },
+          {
+            "pageIndex": 5,
+            "pageType": "summary_cta",
+            "title": "Card 5: 总结与互动",
+            "bulletPoints": [
+              "先完成再完美",
+              "评论区留言你的疑问，下期继续深扒"
+            ],
+            "visualPrompt": "Closing interaction card"
+          }
+        ],
+        "platformTips": "小红书图文轮播笔记点击率取决于封面（3:4大字+美感），收藏率取决于前3张干货密度，文末务必抛出讨论话题带动互动权重。"
+      },
+      "twitter": {
+        "platform": "twitter",
+        "platformName": "推特 / X",
+        "primaryFormat": "pure_text",
+        "title": "关于 矩阵分发测试 的核心认知：工具永远只是杠杆，交付才是唯一确定性。",
+        "candidateTitles": [
+          "90%的人在 矩阵分发测试 上都在做无用功。",
+          "真正的超级个体，到底是如何把 矩阵分发测试 做成资产的？"
+        ],
+        "content": "很多人做 矩阵分发测试 拿不到结果，根本原因不是不够努力，而是陷入了“低水平勤奋”。\n\n聪明人的做法只有三点：\n1. 聚焦真实痛点，不做假大空自嗨；\n2. 搭建自动化工作流，把体力劳动压缩到极致；\n3. 日更稳定交付，让复利替自己工作。\n\n把时间换成资产，还是用体力对抗时代？答案显而易见。",
+        "secondaryContent": "🧵 深度长 Thread 拆解：\n\n1/5\n很多人问我：在 AI 与超级个体时代，如何通过“矩阵分发测试”拿到真正可持续的正向反馈？\n\n花了半年时间实测复盘，今天把 4 个底层逻辑讲透。建议 Bookmark 收藏。👇\n\n2/5\n【误区：把动作当结果】\n绝大多数人每天花 2 个小时找选题、拼凑文字，结果发出去毫无水花。\n原因很简单：你生产的内容没有“信息增量”。\n读者要的从来不是套话，而是能立刻抄作业的实战结论。\n\n3/5\n【解法：模块化与工业化流水线】\n高手做内容，早就脱离了“拍脑袋灵感”阶段：\n- 选题：抓取全网高频真实痛点；\n- 骨架：AI 快速辅助结构化梳理；\n- 灵魂：注入独家个人经历与真实口吻。\n\n4/5\n【壁垒：日更交付的确定性】\n很多人倒在“憋大招”的路上。\n真实世界里，每天交付一篇 70 分的作品，其商业杠杆远远大于一年憋一篇 100 分的神作。\n完成大于完美。\n\n5/5\n总结：\n时代正在奖励那些敢于把流程标准化、并持续交付价值的人。\n\n如果你觉得这条 Thread 对你有启发：\n1. 转发首推让更多同行看到；\n2. 关注我，持续分享 AI 生产力与超级个体一手实操。",
+        "tags": [
+          "AI",
+          "Productivity",
+          "BuildInPublic",
+          "Solopreneur"
+        ],
+        "covers": [],
+        "platformTips": "推特纯文字发布最佳，短推文重在金句观点，长Thread（1/5~5/5）重在深度结构拆解；末推引导转推与Bookmark能显著拉升推荐权重。"
+      }
+    }
+  },
+  {
+    "id": "matrix-1791532426644-vo2rn",
+    "sourceTitle": "矩阵分发测试",
+    "sourceContent": "测试内容一次创作多平台分发规范验证。",
+    "createdAt": "2026-10-09T07:53:46.644Z",
+    "updatedAt": "2026-10-09T07:53:46.647Z",
+    "platforms": {
+      "wechatArticle": {
+        "platform": "wechatArticle",
+        "platformName": "微信公众号",
+        "primaryFormat": "article",
+        "title": "深度拆解：为什么聪明人都在关注“矩阵分发测试”？",
+        "candidateTitles": [
+          "为什么聪明人都在关注“矩阵分发测试”？",
+          "关于“矩阵分发测试”，这是我看过最透彻的一篇分析",
+          "踩过无数坑后，我总结出关于矩阵分发测试的底层逻辑"
+        ],
+        "content": "很多人常问：为什么同样的赛道，别人做就能拿到结果，自己做却总是处处碰壁？\n\n今天不谈虚头巴脑的理论，只聊真枪实弹的实操复盘。建议泡杯茶，花5分钟认真读完。\n\n---\n\n## 颠覆认知：被大众忽视的根本原因\n\n绝大多数人在做这件事情时，往往把精力耗散在表层的细枝末节上，却忽略了最根本的杠杆支点。\n\n测试内容一次创作多平台分发规范验证。\n\n真正的高手，从来不是靠死磕体力，而是先找准痛点，再搭建自动化与标准化闭环。\n\n---\n\n## 落地实操：拿来即用的关键步骤\n\n把复杂问题简单化，核心只抓这三个动作：\n\n1. **锚定真实需求**：砍掉一切虚假繁荣的自嗨动作，直面最具确定性的核心触点；\n2. **搭建流水线**：利用现代化工具武装自己，让重复动作自动化；\n3. **高频高质量交付**：与其脑海里构思100篇神作，不如每天扎实完成固定指标。\n\n---\n\n## 写在最后\n\n种一棵树最好的时间是十年前，其次是现在。商业世界里最大的成本，永远是信息差与行动迟缓。\n\n> **互动探讨**：关于矩阵分发测试，你目前最头疼的卡点是什么？欢迎在评论区留言交流，每一条我都会认真回复。",
+        "tags": [
+          "深度思考",
+          "个人成长",
+          "商业本质",
+          "超级个体"
+        ],
+        "covers": [
+          {
+            "id": "cover-wechat-1",
+            "name": "微信公众号头图封面 (2.35:1)",
+            "ratio": "2.35:1",
+            "headline": "关于矩阵分发测试的底层真相",
+            "subheadline": "深度长文复盘 · 建议收藏",
+            "visualPrompt": "Editorial graphic banner for WeChat article, subject \"矩阵分发测试\", conceptual modern art, clean background, high typography contrast, 8k resolution --ar 16:9",
+            "layoutNotes": "标准公众号头图比例（2.35:1），右侧为主视觉概念图，左侧留白设计醒目大字标题"
+          }
+        ],
+        "platformTips": "公众号建议在早间 8:30 或晚间 21:00 发送；小标题下方搭配1-2个金句引用块，能大幅提升读者阅读完播率。"
+      },
+      "wechatChannels": {
+        "platform": "wechatChannels",
+        "platformName": "微信视频号",
+        "primaryFormat": "video",
+        "title": "说句大实话：如果你还在搞不懂“矩阵分发测试”，成本太高了！",
+        "candidateTitles": [
+          "说句大实话：关于矩阵分发测试，很多人都理解反了",
+          "3分钟讲透矩阵分发测试的底层逻辑，越早看明白越少走弯路"
+        ],
+        "content": "【开篇前3秒黄金Hook】\n说句得罪人的大实话：\n很多人以为做好“矩阵分发测试”靠的是天赋，其实90%的人连底层逻辑都没摸清。\n\n【核心论点展开】\n上周有个同行朋友和我深聊了两个小时，我告诉他：\n想要真正拿到正向反馈，核心只做三件事：\n第一，别盲目跟风，先算清楚你的投入产出比；\n第二，把繁琐的脏活累活做成标准SOP；\n第三，保持持续交付，用结果说话。\n\n【结尾转化】\n关注我，带你看透商业与个人成长的底层真相。觉得有用记得点赞转发！",
+        "tags": [
+          "视频号热门",
+          "商业认知",
+          "大白话干货",
+          "超级个体"
+        ],
+        "covers": [
+          {
+            "id": "cover-channels-1",
+            "name": "视频号原本视频封面 (6:7 / 9:16)",
+            "ratio": "6:7",
+            "headline": "看懂矩阵分发测试",
+            "subheadline": "少走三年弯路",
+            "visualPrompt": "Vertical video thumbnail, high contrast text overlay, mature and confident entrepreneur expression, cinematic studio lighting --ar 9:16",
+            "layoutNotes": "竖版 6:7 / 9:16，核心大字放在画面上半部，人物视线聚焦镜头，视觉冲击力强"
+          },
+          {
+            "id": "cover-channels-2",
+            "name": "视频号朋友圈/社群转发卡片 (2.35:1)",
+            "ratio": "2.35:1",
+            "headline": "同行绝不会告诉你的内幕真相",
+            "subheadline": "关于矩阵分发测试深度解析",
+            "visualPrompt": "Minimalist social share card banner, clean typographic layout, curiosity-driven design, WeChat moments card style --ar 16:9",
+            "layoutNotes": "横版 2.35:1，专门为微信聊天会话与朋友圈转发卡片设计，文字加粗超醒目，激发点击欲"
+          }
+        ],
+        "platformTips": "视频号属于社交推荐算法，熟人点赞与群转发至关重要；转发封面（2.35:1）将直接决定朋友圈小卡片的点击率！"
+      },
+      "douyin": {
+        "platform": "douyin",
+        "platformName": "抖音",
+        "primaryFormat": "video",
+        "title": "为什么绝大多数人在“矩阵分发测试”上全是无效内耗？揭秘高手做法 #干货分享",
+        "candidateTitles": [
+          "为什么聪明人都不碰传统做法？揭秘矩阵分发测试新打法",
+          "建议反复看三遍！矩阵分发测试保姆级实操指南"
+        ],
+        "content": "【镜头1：快切近景，神情严肃】\n“停一下！如果你现在还在用老办法做矩阵分发测试，你正在交巨额隐形成本！”\n\n【镜头2：白板/手写板特写】\n“很多人以为难在技术，其实难在认知差。\n高手只用这套三步法：\n① 砍掉80%冗余动作；\n② 搭建自动化生产工具箱；\n③ 每日保持稳定交付频率。”\n\n【镜头3：面对镜头，真诚总结】\n“别把简单问题搞复杂，按照这套清单跑一周，没效果你回来找我。\n评论区扣【干货】，送你团队内部完整SOP！”",
+        "secondaryContent": "刷到就是赚到！今天把【矩阵分发测试】的底层玩法彻底扒透。看完建议立刻截图保存！",
+        "tags": [
+          "抖音精选",
+          "创业干货",
+          "认知破局",
+          "效率提升"
+        ],
+        "covers": [
+          {
+            "id": "cover-douyin-1",
+            "name": "抖音竖版视频封面 (9:16)",
+            "ratio": "9:16",
+            "headline": "矩阵分发测试真相大拆解",
+            "subheadline": "高手绝不外传的3条捷径",
+            "visualPrompt": "Douyin dynamic vertical cover, high saturated color contrast, giant bold yellow-white title typography, ultra sharp focus --ar 9:16",
+            "layoutNotes": "竖版 9:16，中央居中超大粗体字，避免底部被点赞评论图标遮挡"
+          }
+        ],
+        "cards": [
+          {
+            "pageIndex": 1,
+            "pageType": "cover",
+            "title": "Card 1：关于矩阵分发测试的大实话",
+            "bulletPoints": [
+              "普通人为什么做不成？",
+              "高手的核心秘密是什么？"
+            ],
+            "visualPrompt": "High contrast hook cover"
+          },
+          {
+            "pageIndex": 2,
+            "pageType": "pain_point",
+            "title": "Card 2：90%的人都陷入这3大误区",
+            "bulletPoints": [
+              "误区一：盲目跟风",
+              "误区二：完美主义拖延",
+              "误区三：没有复盘习惯"
+            ],
+            "visualPrompt": "Pain points comparison card"
+          },
+          {
+            "pageIndex": 3,
+            "pageType": "core_steps",
+            "title": "Card 3：可落地的3步破解法",
+            "bulletPoints": [
+              "第一步：锁定最小可行性闭环",
+              "第二步：善用生产力工具降维打击",
+              "第三步：死磕稳定交付输出"
+            ],
+            "visualPrompt": "Step-by-step SOP checklist"
+          },
+          {
+            "pageIndex": 4,
+            "pageType": "summary_cta",
+            "title": "Card 4：核心总结与互动",
+            "bulletPoints": [
+              "行动永远大于空想",
+              "评论区扣【工作流】免费领取实操资料"
+            ],
+            "visualPrompt": "Engagement card"
+          }
+        ],
+        "platformTips": "抖音前3秒跳出率极其敏感，开头前2句话必须具备反差与痛点；图文模式在抖音流量正旺，建议视频与图文同发。"
+      },
+      "xiaohongshu": {
+        "platform": "xiaohongshu",
+        "platformName": "小红书",
+        "primaryFormat": "image_text",
+        "title": "姐妹们/家人们！关于矩阵分发测试，劝你千万别盲目乱搞😭（纯干货避坑）",
+        "candidateTitles": [
+          "花3个月踩坑总结出来的矩阵分发测试实操手册💡建议收藏！",
+          "被问爆的矩阵分发测试全流程🔥小白也能照着抄作业"
+        ],
+        "content": "最近私信里很多人都在问我关于【矩阵分发测试】到底该怎么落地。\n今天抽空整理了一份超硬核的复盘笔记，纯大白话，绝无套路，看完少走半年弯路！建议先🌟【收藏】再看～\n\n💡 核心认知：\n很多人之所以迟迟拿不到正向反馈，并不是能力不行，而是方向搞反了。\n别总想着一开始就做到100分，先完成，再迭代！\n\n🔥 实操3步清单：\n1️⃣ 拆解痛点：把大目标拆成每天能轻松完成的小任务\n2️⃣ 搭建工具流：善用现代化AI与自动化工具，把效率拉满\n3️⃣ 刻意复盘：每天固定看数据，找出可优化的微小细节\n\n✨ 避坑指南：\n千万不要花大几千去报那种割韭菜的课，公开互联网上的真实经验足够你跑通闭环！\n\n大家目前在做矩阵分发测试时最大的难题是什么？欢迎在评论区聊聊，互相支招～👇",
+        "secondaryContent": "小红书短视频口播要点：语调温和真诚，像朋友当面分享独家私藏经验，多展示操作细节。",
+        "tags": [
+          "小红书干货",
+          "高效生活",
+          "搞钱搞事业",
+          "个人成长",
+          "自媒体运营"
+        ],
+        "covers": [
+          {
+            "id": "cover-xhs-1",
+            "name": "小红书高清封面 (3:4)",
+            "ratio": "3:4",
+            "headline": "矩阵分发测试超全避坑指南",
+            "subheadline": "小白3分钟抄作业 · 亲测有效",
+            "visualPrompt": "Xiaohongshu aesthetic lifestyle cover, 3:4 aspect ratio, pastel cream aesthetic, cozy modern studio background, cute stickers and clean bold typography --ar 3:4",
+            "layoutNotes": "竖版 3:4，顶部放醒目吸睛大字，带精致贴纸图标，中间为真实案例/屏幕展示，高级感拉满"
+          }
+        ],
+        "cards": [
+          {
+            "pageIndex": 1,
+            "pageType": "cover",
+            "title": "Card 1: 封面",
+            "bulletPoints": [
+              "矩阵分发测试保姆级复盘",
+              "手把手教你跑通闭环",
+              "建议收藏备用"
+            ],
+            "visualPrompt": "Aesthetic cover card with bold title"
+          },
+          {
+            "pageIndex": 2,
+            "pageType": "pain_point",
+            "title": "Card 2: 常见踩坑现状",
+            "bulletPoints": [
+              "时间花了很多却没结果？",
+              "不知道第一步从哪开始？",
+              "方向走偏白费精力"
+            ],
+            "visualPrompt": "Comparison card layout"
+          },
+          {
+            "pageIndex": 3,
+            "pageType": "core_steps",
+            "title": "Card 3: 抄作业清单步骤",
+            "bulletPoints": [
+              "明确核心触点",
+              "选择顺手生产力工具",
+              "建立每日执行打卡"
+            ],
+            "visualPrompt": "Checklist card layout"
+          },
+          {
+            "pageIndex": 4,
+            "pageType": "takeaway",
+            "title": "Card 4: 高效秘诀",
+            "bulletPoints": [
+              "利用AI批量跑骨架",
+              "人工注入灵魂与口吻",
+              "持续追踪受众反馈"
+            ],
+            "visualPrompt": "Pro tips card"
+          },
+          {
+            "pageIndex": 5,
+            "pageType": "summary_cta",
+            "title": "Card 5: 总结与互动",
+            "bulletPoints": [
+              "先完成再完美",
+              "评论区留言你的疑问，下期继续深扒"
+            ],
+            "visualPrompt": "Closing interaction card"
+          }
+        ],
+        "platformTips": "小红书图文轮播笔记点击率取决于封面（3:4大字+美感），收藏率取决于前3张干货密度，文末务必抛出讨论话题带动互动权重。"
+      },
+      "twitter": {
+        "platform": "twitter",
+        "platformName": "推特 / X",
+        "primaryFormat": "pure_text",
+        "title": "关于 矩阵分发测试 的核心认知：工具永远只是杠杆，交付才是唯一确定性。",
+        "candidateTitles": [
+          "90%的人在 矩阵分发测试 上都在做无用功。",
+          "真正的超级个体，到底是如何把 矩阵分发测试 做成资产的？"
+        ],
+        "content": "很多人做 矩阵分发测试 拿不到结果，根本原因不是不够努力，而是陷入了“低水平勤奋”。\n\n聪明人的做法只有三点：\n1. 聚焦真实痛点，不做假大空自嗨；\n2. 搭建自动化工作流，把体力劳动压缩到极致；\n3. 日更稳定交付，让复利替自己工作。\n\n把时间换成资产，还是用体力对抗时代？答案显而易见。",
+        "secondaryContent": "🧵 深度长 Thread 拆解：\n\n1/5\n很多人问我：在 AI 与超级个体时代，如何通过“矩阵分发测试”拿到真正可持续的正向反馈？\n\n花了半年时间实测复盘，今天把 4 个底层逻辑讲透。建议 Bookmark 收藏。👇\n\n2/5\n【误区：把动作当结果】\n绝大多数人每天花 2 个小时找选题、拼凑文字，结果发出去毫无水花。\n原因很简单：你生产的内容没有“信息增量”。\n读者要的从来不是套话，而是能立刻抄作业的实战结论。\n\n3/5\n【解法：模块化与工业化流水线】\n高手做内容，早就脱离了“拍脑袋灵感”阶段：\n- 选题：抓取全网高频真实痛点；\n- 骨架：AI 快速辅助结构化梳理；\n- 灵魂：注入独家个人经历与真实口吻。\n\n4/5\n【壁垒：日更交付的确定性】\n很多人倒在“憋大招”的路上。\n真实世界里，每天交付一篇 70 分的作品，其商业杠杆远远大于一年憋一篇 100 分的神作。\n完成大于完美。\n\n5/5\n总结：\n时代正在奖励那些敢于把流程标准化、并持续交付价值的人。\n\n如果你觉得这条 Thread 对你有启发：\n1. 转发首推让更多同行看到；\n2. 关注我，持续分享 AI 生产力与超级个体一手实操。",
+        "tags": [
+          "AI",
+          "Productivity",
+          "BuildInPublic",
+          "Solopreneur"
+        ],
+        "covers": [],
+        "platformTips": "推特纯文字发布最佳，短推文重在金句观点，长Thread（1/5~5/5）重在深度结构拆解；末推引导转推与Bookmark能显著拉升推荐权重。"
+      }
+    }
+  },
+  {
+    "id": "matrix-1791532420720-bpnkl",
+    "sourceTitle": "普通人如何用个人内容工作台打造全平台影响力",
+    "sourceContent": "核心不是四处盲目发帖，而是建立一次创作、矩阵分发的杠杆体系。发图文还是发视频？抖音需要封面，视频号需要两个封面，小红书图文要卡片，推特只需要纯文字。",
+    "createdAt": "2026-10-09T07:53:40.720Z",
+    "updatedAt": "2026-10-09T07:53:40.734Z",
+    "platforms": {
+      "wechatArticle": {
+        "platform": "wechatArticle",
+        "platformName": "微信公众号",
+        "primaryFormat": "article",
+        "title": "深度拆解：为什么聪明人都在关注“普通人如何用个人内容工作台打造全平台影响力”？",
+        "candidateTitles": [
+          "为什么聪明人都在关注“普通人如何用个人内容工作台打造全平台影响力”？",
+          "关于“普通人如何用个人内容工作台打造全平台影响力”，这是我看过最透彻的一篇分析",
+          "踩过无数坑后，我总结出关于普通人如何用个人内容工作台打造全平台影响力的底层逻辑"
+        ],
+        "content": "很多人常问：为什么同样的赛道，别人做就能拿到结果，自己做却总是处处碰壁？\n\n今天不谈虚头巴脑的理论，只聊真枪实弹的实操复盘。建议泡杯茶，花5分钟认真读完。\n\n---\n\n## 颠覆认知：被大众忽视的根本原因\n\n绝大多数人在做这件事情时，往往把精力耗散在表层的细枝末节上，却忽略了最根本的杠杆支点。\n\n核心不是四处盲目发帖，而是建立一次创作、矩阵分发的杠杆体系。发图文还是发视频？抖音需要封面，视频号需要两个封面，小红书图文要卡片，推特只需要纯文字。\n\n真正的高手，从来不是靠死磕体力，而是先找准痛点，再搭建自动化与标准化闭环。\n\n---\n\n## 落地实操：拿来即用的关键步骤\n\n把复杂问题简单化，核心只抓这三个动作：\n\n1. **锚定真实需求**：砍掉一切虚假繁荣的自嗨动作，直面最具确定性的核心触点；\n2. **搭建流水线**：利用现代化工具武装自己，让重复动作自动化；\n3. **高频高质量交付**：与其脑海里构思100篇神作，不如每天扎实完成固定指标。\n\n---\n\n## 写在最后\n\n种一棵树最好的时间是十年前，其次是现在。商业世界里最大的成本，永远是信息差与行动迟缓。\n\n> **互动探讨**：关于普通人如何用个人内容工作台打造全平台影响力，你目前最头疼的卡点是什么？欢迎在评论区留言交流，每一条我都会认真回复。",
+        "tags": [
+          "深度思考",
+          "个人成长",
+          "商业本质",
+          "超级个体"
+        ],
+        "covers": [
+          {
+            "id": "cover-wechat-1",
+            "name": "微信公众号头图封面 (2.35:1)",
+            "ratio": "2.35:1",
+            "headline": "关于普通人如何用个人内容工作台打造全平台影响力的底层真相",
+            "subheadline": "深度长文复盘 · 建议收藏",
+            "visualPrompt": "Editorial graphic banner for WeChat article, subject \"普通人如何用个人内容工作台打造全平台影响力\", conceptual modern art, clean background, high typography contrast, 8k resolution --ar 16:9",
+            "layoutNotes": "标准公众号头图比例（2.35:1），右侧为主视觉概念图，左侧留白设计醒目大字标题"
+          }
+        ],
+        "platformTips": "公众号建议在早间 8:30 或晚间 21:00 发送；小标题下方搭配1-2个金句引用块，能大幅提升读者阅读完播率。"
+      },
+      "wechatChannels": {
+        "platform": "wechatChannels",
+        "platformName": "微信视频号",
+        "primaryFormat": "video",
+        "title": "说句大实话：如果你还在搞不懂“普通人如何用个人内容工作台打造全平台影响力”，成本太高了！",
+        "candidateTitles": [
+          "说句大实话：关于普通人如何用个人内容工作台打造全平台影响力，很多人都理解反了",
+          "3分钟讲透普通人如何用个人内容工作台打造全平台影响力的底层逻辑，越早看明白越少走弯路"
+        ],
+        "content": "【开篇前3秒黄金Hook】\n说句得罪人的大实话：\n很多人以为做好“普通人如何用个人内容工作台打造全平台影响力”靠的是天赋，其实90%的人连底层逻辑都没摸清。\n\n【核心论点展开】\n上周有个同行朋友和我深聊了两个小时，我告诉他：\n想要真正拿到正向反馈，核心只做三件事：\n第一，别盲目跟风，先算清楚你的投入产出比；\n第二，把繁琐的脏活累活做成标准SOP；\n第三，保持持续交付，用结果说话。\n\n【结尾转化】\n关注我，带你看透商业与个人成长的底层真相。觉得有用记得点赞转发！",
+        "tags": [
+          "视频号热门",
+          "商业认知",
+          "大白话干货",
+          "超级个体"
+        ],
+        "covers": [
+          {
+            "id": "cover-channels-1",
+            "name": "视频号原本视频封面 (6:7 / 9:16)",
+            "ratio": "6:7",
+            "headline": "看懂普通人如何用个人内容工作台打造全平台影响力",
+            "subheadline": "少走三年弯路",
+            "visualPrompt": "Vertical video thumbnail, high contrast text overlay, mature and confident entrepreneur expression, cinematic studio lighting --ar 9:16",
+            "layoutNotes": "竖版 6:7 / 9:16，核心大字放在画面上半部，人物视线聚焦镜头，视觉冲击力强"
+          },
+          {
+            "id": "cover-channels-2",
+            "name": "视频号朋友圈/社群转发卡片 (2.35:1)",
+            "ratio": "2.35:1",
+            "headline": "同行绝不会告诉你的内幕真相",
+            "subheadline": "关于普通人如何用个人内容工作台打造全平台影响力深度解析",
+            "visualPrompt": "Minimalist social share card banner, clean typographic layout, curiosity-driven design, WeChat moments card style --ar 16:9",
+            "layoutNotes": "横版 2.35:1，专门为微信聊天会话与朋友圈转发卡片设计，文字加粗超醒目，激发点击欲"
+          }
+        ],
+        "platformTips": "视频号属于社交推荐算法，熟人点赞与群转发至关重要；转发封面（2.35:1）将直接决定朋友圈小卡片的点击率！"
+      },
+      "douyin": {
+        "platform": "douyin",
+        "platformName": "抖音",
+        "primaryFormat": "video",
+        "title": "为什么绝大多数人在“普通人如何用个人内容工作台打造全平台影响力”上全是无效内耗？揭秘高手做法 #干货分享",
+        "candidateTitles": [
+          "为什么聪明人都不碰传统做法？揭秘普通人如何用个人内容工作台打造全平台影响力新打法",
+          "建议反复看三遍！普通人如何用个人内容工作台打造全平台影响力保姆级实操指南"
+        ],
+        "content": "【镜头1：快切近景，神情严肃】\n“停一下！如果你现在还在用老办法做普通人如何用个人内容工作台打造全平台影响力，你正在交巨额隐形成本！”\n\n【镜头2：白板/手写板特写】\n“很多人以为难在技术，其实难在认知差。\n高手只用这套三步法：\n① 砍掉80%冗余动作；\n② 搭建自动化生产工具箱；\n③ 每日保持稳定交付频率。”\n\n【镜头3：面对镜头，真诚总结】\n“别把简单问题搞复杂，按照这套清单跑一周，没效果你回来找我。\n评论区扣【干货】，送你团队内部完整SOP！”",
+        "secondaryContent": "刷到就是赚到！今天把【普通人如何用个人内容工作台打造全平台影响力】的底层玩法彻底扒透。看完建议立刻截图保存！",
+        "tags": [
+          "抖音精选",
+          "创业干货",
+          "认知破局",
+          "效率提升"
+        ],
+        "covers": [
+          {
+            "id": "cover-douyin-1",
+            "name": "抖音竖版视频封面 (9:16)",
+            "ratio": "9:16",
+            "headline": "普通人如何用个人内容工作台打造全平台影响力真相大拆解",
+            "subheadline": "高手绝不外传的3条捷径",
+            "visualPrompt": "Douyin dynamic vertical cover, high saturated color contrast, giant bold yellow-white title typography, ultra sharp focus --ar 9:16",
+            "layoutNotes": "竖版 9:16，中央居中超大粗体字，避免底部被点赞评论图标遮挡"
+          }
+        ],
+        "cards": [
+          {
+            "pageIndex": 1,
+            "pageType": "cover",
+            "title": "Card 1：关于普通人如何用个人内容工作台打造全平台影响力的大实话",
+            "bulletPoints": [
+              "普通人为什么做不成？",
+              "高手的核心秘密是什么？"
+            ],
+            "visualPrompt": "High contrast hook cover"
+          },
+          {
+            "pageIndex": 2,
+            "pageType": "pain_point",
+            "title": "Card 2：90%的人都陷入这3大误区",
+            "bulletPoints": [
+              "误区一：盲目跟风",
+              "误区二：完美主义拖延",
+              "误区三：没有复盘习惯"
+            ],
+            "visualPrompt": "Pain points comparison card"
+          },
+          {
+            "pageIndex": 3,
+            "pageType": "core_steps",
+            "title": "Card 3：可落地的3步破解法",
+            "bulletPoints": [
+              "第一步：锁定最小可行性闭环",
+              "第二步：善用生产力工具降维打击",
+              "第三步：死磕稳定交付输出"
+            ],
+            "visualPrompt": "Step-by-step SOP checklist"
+          },
+          {
+            "pageIndex": 4,
+            "pageType": "summary_cta",
+            "title": "Card 4：核心总结与互动",
+            "bulletPoints": [
+              "行动永远大于空想",
+              "评论区扣【工作流】免费领取实操资料"
+            ],
+            "visualPrompt": "Engagement card"
+          }
+        ],
+        "platformTips": "抖音前3秒跳出率极其敏感，开头前2句话必须具备反差与痛点；图文模式在抖音流量正旺，建议视频与图文同发。"
+      },
+      "xiaohongshu": {
+        "platform": "xiaohongshu",
+        "platformName": "小红书",
+        "primaryFormat": "image_text",
+        "title": "姐妹们/家人们！关于普通人如何用个人内容工作台打造全平台影响力，劝你千万别盲目乱搞😭（纯干货避坑）",
+        "candidateTitles": [
+          "花3个月踩坑总结出来的普通人如何用个人内容工作台打造全平台影响力实操手册💡建议收藏！",
+          "被问爆的普通人如何用个人内容工作台打造全平台影响力全流程🔥小白也能照着抄作业"
+        ],
+        "content": "最近私信里很多人都在问我关于【普通人如何用个人内容工作台打造全平台影响力】到底该怎么落地。\n今天抽空整理了一份超硬核的复盘笔记，纯大白话，绝无套路，看完少走半年弯路！建议先🌟【收藏】再看～\n\n💡 核心认知：\n很多人之所以迟迟拿不到正向反馈，并不是能力不行，而是方向搞反了。\n别总想着一开始就做到100分，先完成，再迭代！\n\n🔥 实操3步清单：\n1️⃣ 拆解痛点：把大目标拆成每天能轻松完成的小任务\n2️⃣ 搭建工具流：善用现代化AI与自动化工具，把效率拉满\n3️⃣ 刻意复盘：每天固定看数据，找出可优化的微小细节\n\n✨ 避坑指南：\n千万不要花大几千去报那种割韭菜的课，公开互联网上的真实经验足够你跑通闭环！\n\n大家目前在做普通人如何用个人内容工作台打造全平台影响力时最大的难题是什么？欢迎在评论区聊聊，互相支招～👇",
+        "secondaryContent": "小红书短视频口播要点：语调温和真诚，像朋友当面分享独家私藏经验，多展示操作细节。",
+        "tags": [
+          "小红书干货",
+          "高效生活",
+          "搞钱搞事业",
+          "个人成长",
+          "自媒体运营"
+        ],
+        "covers": [
+          {
+            "id": "cover-xhs-1",
+            "name": "小红书高清封面 (3:4)",
+            "ratio": "3:4",
+            "headline": "普通人如何用个人内容工作台打造全平台影响力超全避坑指南",
+            "subheadline": "小白3分钟抄作业 · 亲测有效",
+            "visualPrompt": "Xiaohongshu aesthetic lifestyle cover, 3:4 aspect ratio, pastel cream aesthetic, cozy modern studio background, cute stickers and clean bold typography --ar 3:4",
+            "layoutNotes": "竖版 3:4，顶部放醒目吸睛大字，带精致贴纸图标，中间为真实案例/屏幕展示，高级感拉满"
+          }
+        ],
+        "cards": [
+          {
+            "pageIndex": 1,
+            "pageType": "cover",
+            "title": "Card 1: 封面",
+            "bulletPoints": [
+              "普通人如何用个人内容工作台打造全平台影响力保姆级复盘",
+              "手把手教你跑通闭环",
+              "建议收藏备用"
+            ],
+            "visualPrompt": "Aesthetic cover card with bold title"
+          },
+          {
+            "pageIndex": 2,
+            "pageType": "pain_point",
+            "title": "Card 2: 常见踩坑现状",
+            "bulletPoints": [
+              "时间花了很多却没结果？",
+              "不知道第一步从哪开始？",
+              "方向走偏白费精力"
+            ],
+            "visualPrompt": "Comparison card layout"
+          },
+          {
+            "pageIndex": 3,
+            "pageType": "core_steps",
+            "title": "Card 3: 抄作业清单步骤",
+            "bulletPoints": [
+              "明确核心触点",
+              "选择顺手生产力工具",
+              "建立每日执行打卡"
+            ],
+            "visualPrompt": "Checklist card layout"
+          },
+          {
+            "pageIndex": 4,
+            "pageType": "takeaway",
+            "title": "Card 4: 高效秘诀",
+            "bulletPoints": [
+              "利用AI批量跑骨架",
+              "人工注入灵魂与口吻",
+              "持续追踪受众反馈"
+            ],
+            "visualPrompt": "Pro tips card"
+          },
+          {
+            "pageIndex": 5,
+            "pageType": "summary_cta",
+            "title": "Card 5: 总结与互动",
+            "bulletPoints": [
+              "先完成再完美",
+              "评论区留言你的疑问，下期继续深扒"
+            ],
+            "visualPrompt": "Closing interaction card"
+          }
+        ],
+        "platformTips": "小红书图文轮播笔记点击率取决于封面（3:4大字+美感），收藏率取决于前3张干货密度，文末务必抛出讨论话题带动互动权重。"
+      },
+      "twitter": {
+        "platform": "twitter",
+        "platformName": "推特 / X",
+        "primaryFormat": "pure_text",
+        "title": "关于 普通人如何用个人内容工作台打造全平台影响力 的核心认知：工具永远只是杠杆，交付才是唯一确定性。",
+        "candidateTitles": [
+          "90%的人在 普通人如何用个人内容工作台打造全平台影响力 上都在做无用功。",
+          "真正的超级个体，到底是如何把 普通人如何用个人内容工作台打造全平台影响力 做成资产的？"
+        ],
+        "content": "很多人做 普通人如何用个人内容工作台打造全平台影响力 拿不到结果，根本原因不是不够努力，而是陷入了“低水平勤奋”。\n\n聪明人的做法只有三点：\n1. 聚焦真实痛点，不做假大空自嗨；\n2. 搭建自动化工作流，把体力劳动压缩到极致；\n3. 日更稳定交付，让复利替自己工作。\n\n把时间换成资产，还是用体力对抗时代？答案显而易见。",
+        "secondaryContent": "🧵 深度长 Thread 拆解：\n\n1/5\n很多人问我：在 AI 与超级个体时代，如何通过“普通人如何用个人内容工作台打造全平台影响力”拿到真正可持续的正向反馈？\n\n花了半年时间实测复盘，今天把 4 个底层逻辑讲透。建议 Bookmark 收藏。👇\n\n2/5\n【误区：把动作当结果】\n绝大多数人每天花 2 个小时找选题、拼凑文字，结果发出去毫无水花。\n原因很简单：你生产的内容没有“信息增量”。\n读者要的从来不是套话，而是能立刻抄作业的实战结论。\n\n3/5\n【解法：模块化与工业化流水线】\n高手做内容，早就脱离了“拍脑袋灵感”阶段：\n- 选题：抓取全网高频真实痛点；\n- 骨架：AI 快速辅助结构化梳理；\n- 灵魂：注入独家个人经历与真实口吻。\n\n4/5\n【壁垒：日更交付的确定性】\n很多人倒在“憋大招”的路上。\n真实世界里，每天交付一篇 70 分的作品，其商业杠杆远远大于一年憋一篇 100 分的神作。\n完成大于完美。\n\n5/5\n总结：\n时代正在奖励那些敢于把流程标准化、并持续交付价值的人。\n\n如果你觉得这条 Thread 对你有启发：\n1. 转发首推让更多同行看到；\n2. 关注我，持续分享 AI 生产力与超级个体一手实操。",
+        "tags": [
+          "AI",
+          "Productivity",
+          "BuildInPublic",
+          "Solopreneur"
+        ],
+        "covers": [],
+        "platformTips": "推特纯文字发布最佳，短推文重在金句观点，长Thread（1/5~5/5）重在深度结构拆解；末推引导转推与Bookmark能显著拉升推荐权重。"
+      }
+    }
+  }
+]

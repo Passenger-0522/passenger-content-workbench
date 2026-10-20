@@ -1,0 +1,15 @@
+{
+  "receiptId": "rec_fuzuag11",
+  "importId": "cap_1791713460616_rndt7e",
+  "projectId": "proj_jp3lspfy",
+  "topicId": "top_3g0bxijt",
+  "status": "imported",
+  "importedAt": "2026-10-11T10:11:00.628Z",
+  "assetsAdded": 0,
+  "executionParty": "antigravity",
+  "skillId": "workbench-capture",
+  "costPath": "local_free",
+  "quotaStatus": "active",
+  "conflict": null,
+  "warnings": []
+}

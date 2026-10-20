@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791642109342_u7ctr7",
+  "projectId": "proj_g3le05am",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "M1 8G 256G MacBook Air 卡到无法发推，该不该升级硬件？",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

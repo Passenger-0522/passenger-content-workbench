@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791716087525_d8bfop",
+  "projectId": "proj_5726a144",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "网文IP自制闭环进化：网文测款-漫画定型-漫剧动态化",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

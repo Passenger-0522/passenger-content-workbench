@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "scheduledHour": 9,
+  "scheduledMinute": 30,
+  "lastStatus": "unconfigured",
+  "history": [],
+  "lastRunDate": "2026-10-20",
+  "lastRunAt": "2026-10-20T04:48:55.762Z",
+  "keywords": [
+    "AI工作流",
+    "独立开发",
+    "效率工具"
+  ],
+  "platforms": [
+    "xiaohongshu",
+    "wechat_channels",
+    "twitter"
+  ],
+  "missedRunPolicy": "catch_up"
+}

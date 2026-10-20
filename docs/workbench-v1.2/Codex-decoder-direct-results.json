@@ -1,0 +1,11 @@
+{
+  "nativeCoverDecode": {
+    "valid": true,
+    "milliseconds": 2661
+  },
+  "fixtureVideoDecode": {
+    "valid": true,
+    "milliseconds": 2209
+  },
+  "method": "Node execFileSync argv array timeout 30000; actual FFmpeg decoding, unchanged trusted source files"
+}

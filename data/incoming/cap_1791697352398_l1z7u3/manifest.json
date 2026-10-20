@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791697352398_l1z7u3",
+  "projectId": "proj_yog29kqi",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "逆向开源PS给AI-Agent原生操控权",
+  "sourceUrl": "https://github.com/storytold/photocraft",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791777584724_urw51c",
+  "projectId": "proj_y6g1m0h0",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "AI逆向家电深度复盘：模拟器抓包到AR空间交互",
+  "sourceUrl": "https://x.com/icanberk",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

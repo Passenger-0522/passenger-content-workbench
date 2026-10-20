@@ -1,0 +1,12 @@
+[
+  {
+    "test": "POST cannot create ready image-text without media",
+    "passed": false,
+    "observed": {
+      "httpStatus": 200,
+      "variantStatus": "ready",
+      "coverCount": 0
+    },
+    "projectId": "proj_r1ixzfo1"
+  }
+]

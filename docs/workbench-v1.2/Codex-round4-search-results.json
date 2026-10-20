@@ -1,0 +1,87 @@
+{
+  "externalLiveTest": "pending_real_credentials",
+  "localFakeProviderOnly": true,
+  "tests": [
+    {
+      "test": "missing key is truthful and does not contact provider",
+      "passed": true,
+      "observed": {
+        "status": "unconfigured",
+        "calls": 0
+      }
+    },
+    {
+      "test": "X structural parser retains author URL time and capture date",
+      "passed": true,
+      "observed": {
+        "id": "tikhub-x-0-1791616053247",
+        "keyword": "Local provider fixture about a",
+        "desc": "Local provider fixture about an AI workflow.",
+        "hotScore": 13,
+        "platform": "x",
+        "category": "X 动态",
+        "url": "https://x.com/i/status/98765432",
+        "author": "Local fixture author",
+        "contentTime": "2026-10-09T10:00:00Z",
+        "capturedAt": "2026-10-10T07:07:33.152Z"
+      }
+    },
+    {
+      "test": "rate-limit error and HTTP request trace retained",
+      "passed": true,
+      "observed": {
+        "status": "error",
+        "trace": {
+          "query": "workflow",
+          "platform": "douyin",
+          "endpoint": "http://127.0.0.1:3030/api/v1/douyin/search/fetch_general_search_v1",
+          "requestedAt": "2026-10-10T07:07:33.249Z",
+          "statusCode": 429,
+          "coverage": "HTTP 429",
+          "error": "TikHub 返回 HTTP 429: Too Many Requests"
+        }
+      }
+    },
+    {
+      "test": "partial daily search keeps successful source with true excerpt status",
+      "passed": true,
+      "observed": {
+        "run": {
+          "executed": true,
+          "status": "partial",
+          "itemsCount": 1,
+          "message": "每日检索执行完毕 (状态: partial, 收集素材: 1条)"
+        },
+        "source": {
+          "url": "https://x.com/i/status/98765432",
+          "canonicalId": "https://x.com/i/status/98765432",
+          "title": "Local provider fixture about a",
+          "author": "Local fixture author",
+          "publishTime": "2026-10-09T10:00:00Z",
+          "rawMarkdown": "Local provider fixture about an AI workflow.",
+          "readabilityStatus": "partial",
+          "bookmarkReason": "TikHub 每日检索自动收录 (x)",
+          "isBenchmarkArticle": false,
+          "id": "src_chqehe5l",
+          "capturedAt": "2026-10-10T07:07:33.278Z",
+          "deconstructions": []
+        }
+      }
+    },
+    {
+      "test": "same-day background run does not duplicate provider requests",
+      "passed": true,
+      "observed": {
+        "newCalls": 0,
+        "status": "already_run_today"
+      }
+    },
+    {
+      "test": "provider request traces remain queryable",
+      "passed": true,
+      "observed": {
+        "traceCount": 5
+      }
+    }
+  ]
+}

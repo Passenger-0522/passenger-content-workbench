@@ -1,0 +1,19 @@
+{
+  "queuedOnlyBeforeStart": true,
+  "autoReceipt": {
+    "receiptId": "rec_6zsbnlj5",
+    "importId": "cap_offline_1791611805_16465",
+    "projectId": "proj_t3iwu9bm",
+    "topicId": "top_jwnd3dgm",
+    "status": "imported",
+    "importedAt": "2026-10-10T05:56:46.796Z",
+    "assetsAdded": 0,
+    "conflict": null,
+    "warnings": []
+  },
+  "projectPersisted": true,
+  "restartIdempotent": true,
+  "titlePreserved": false,
+  "sourceUrlPreserved": false,
+  "rawInputPreserved": true
+}

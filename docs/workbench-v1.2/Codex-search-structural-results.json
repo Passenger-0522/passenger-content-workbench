@@ -1,0 +1,56 @@
+{
+  "unconfiguredAccurate": true,
+  "providerRequests": [
+    {
+      "method": "GET",
+      "path": "/api/v1/twitter/web/fetch_search_timeline?keyword=AI%20workflow"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/douyin/search/fetch_general_search_v1",
+      "body": "{\"keyword\":\"AI workflow\",\"cursor\":0,\"count\":10}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/twitter/web/fetch_search_timeline?keyword=AI"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/douyin/search/fetch_general_search_v1",
+      "body": "{\"keyword\":\"AI\",\"cursor\":0,\"count\":10}"
+    }
+  ],
+  "xParsed": {
+    "configured": true,
+    "status": "live_tikhub",
+    "data": [
+      {
+        "id": "tikhub-dy-0-1791612033192",
+        "keyword": "抖音搜索结果 1",
+        "desc": "抖音搜索结果 1",
+        "hotScore": "热门",
+        "platform": "douyin",
+        "category": "综合热搜",
+        "author": "抖音创作者",
+        "capturedAt": "2026-10-10T06:00:33.110Z"
+      }
+    ],
+    "trace": {
+      "query": "AI workflow",
+      "platform": "x",
+      "endpoint": "http://127.0.0.1:3019/api/v1/twitter/web/fetch_search_timeline?keyword=AI%20workflow",
+      "requestedAt": "2026-10-10T06:00:33.110Z",
+      "statusCode": 200,
+      "coverage": "全量返回"
+    }
+  },
+  "douyin429Preserved": true,
+  "partialSourcesResult": {
+    "executed": true,
+    "status": "partial",
+    "itemsCount": 1,
+    "message": "每日检索执行完毕 (状态: partial, 收集素材: 1条)"
+  },
+  "secondRunNoDuplicateCalls": true,
+  "searchResultsActuallySaved": false
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791715875667_j8awmr",
+  "projectId": "proj_kyk3jwp9",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "开源 DeepSeek Bot：基于 DSH 的持久化多智能体协同插件",
+  "sourceUrl": "https://github.com/FeiZhuLulu/DeepSeek-Bot",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

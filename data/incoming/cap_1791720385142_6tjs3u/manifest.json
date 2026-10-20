@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791720385142_6tjs3u",
+  "projectId": "proj_7971g13r",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "网文自制漫剧版权防火墙：防平台排他约与自持IP实操",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

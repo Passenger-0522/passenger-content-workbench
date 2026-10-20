@@ -1,0 +1,53 @@
+[
+  {
+    "test": "uploaded non-video MP4 is rejected",
+    "passed": true,
+    "observed": {
+      "http": 400,
+      "error": "视频文件损坏或格式无效"
+    }
+  },
+  {
+    "test": "native image upload returns true dimensions and retrievable bytes",
+    "passed": false,
+    "observed": {
+      "http": 400,
+      "width": null,
+      "height": null
+    }
+  },
+  {
+    "test": "real silent video upload succeeds",
+    "passed": false,
+    "observed": {
+      "http": 400,
+      "bytes": null
+    }
+  },
+  {
+    "test": "POST rejects ready image-text with no images",
+    "passed": true,
+    "observed": {
+      "http": 400,
+      "status": "draft"
+    }
+  },
+  {
+    "test": "three platform variants share actual video and keep independent copy",
+    "passed": true,
+    "observed": {
+      "urlsSame": true,
+      "variantCount": 3,
+      "copiesIndependent": true
+    }
+  },
+  {
+    "test": "incoming disguised MP4 cannot succeed",
+    "passed": false,
+    "observed": {
+      "http": 200,
+      "status": "imported",
+      "assetsAdded": 1
+    }
+  }
+]

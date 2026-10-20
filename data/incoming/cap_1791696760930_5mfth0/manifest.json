@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791696760930_5mfth0",
+  "projectId": "proj_k6b5nj2e",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "开发者用AI重做Adobe全家桶免费开源",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

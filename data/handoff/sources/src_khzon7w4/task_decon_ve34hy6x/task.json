@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.2",
+  "sourceId": "src_khzon7w4",
+  "taskId": "task_decon_ve34hy6x",
+  "taskType": "source_deconstruction",
+  "executionParty": "gemini",
+  "sourceUrl": "https://mp.weixin.qq.com/s/sample_test",
+  "canonicalId": "https://mp.weixin.qq.com/s/sample_test",
+  "createdAt": "2026-10-10T07:26:48.186Z"
+}

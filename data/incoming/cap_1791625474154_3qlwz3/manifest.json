@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791625474154_3qlwz3",
+  "projectId": "proj_95jf3fw4",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "GitHub项目剖析：morluto/rea",
+  "sourceUrl": "https://github.com/morluto/rea",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

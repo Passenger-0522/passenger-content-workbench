@@ -1,0 +1,15 @@
+{
+  "receiptId": "rec_yf7u1ips",
+  "importId": "cap_1791698196776_ginn7o",
+  "projectId": "proj_s7viwh0d",
+  "topicId": "top_9tintdas",
+  "status": "imported",
+  "importedAt": "2026-10-11T05:56:36.788Z",
+  "assetsAdded": 0,
+  "executionParty": "antigravity",
+  "skillId": "workbench-capture",
+  "costPath": "local_free",
+  "quotaStatus": "active",
+  "conflict": null,
+  "warnings": []
+}

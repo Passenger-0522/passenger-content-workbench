@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791890754667_jgfynq",
+  "projectId": "proj_0qt2wbw4",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "ESP32 真实商用产品与热门项目方向盘点推文",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

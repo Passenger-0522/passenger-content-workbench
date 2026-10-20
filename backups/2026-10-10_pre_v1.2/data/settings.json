@@ -1,0 +1,9 @@
+{
+  "geminiApiKey": "",
+  "geminiBaseUrl": "https://generativelanguage.googleapis.com",
+  "geminiModel": "gemini-2.5-flash",
+  "tikhubApiKey": "",
+  "tikhubBaseUrl": "https://api.tikhub.io",
+  "dailyKpiTarget": 20,
+  "niche": "AI与效率工具 / 个人超级个体 / 职场认知"
+}

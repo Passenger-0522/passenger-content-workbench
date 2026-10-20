@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791698196776_ginn7o",
+  "projectId": "proj_s7viwh0d",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "矩阵自动化薅羊毛单日收益破500战绩剖析",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

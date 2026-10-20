@@ -1,0 +1,73 @@
+[
+  {
+    "test": "untrusted Host cannot read auth token",
+    "passed": false,
+    "observed": {
+      "httpStatus": 200,
+      "tokenWasReturned": true
+    }
+  },
+  {
+    "test": "wrong random token denied on /api/projects",
+    "passed": true,
+    "observed": {
+      "httpStatus": 401
+    }
+  },
+  {
+    "test": "wrong random token denied on /api/sources",
+    "passed": true,
+    "observed": {
+      "httpStatus": 401
+    }
+  },
+  {
+    "test": "wrong random token denied on /api/leads",
+    "passed": true,
+    "observed": {
+      "httpStatus": 401
+    }
+  },
+  {
+    "test": "media GET cannot follow a symlink outside asset root",
+    "passed": false,
+    "observed": {
+      "httpStatus": 200,
+      "returnedBytes": 2612640
+    }
+  },
+  {
+    "test": "image verification requires decodable file, not just header",
+    "passed": false,
+    "observed": {
+      "httpStatus": 200,
+      "assetsAdded": 1,
+      "receiptStatus": "imported"
+    }
+  },
+  {
+    "test": "all invalid assets cannot be labelled imported success",
+    "passed": false,
+    "observed": {
+      "status": "imported",
+      "warnings": [
+        "Image file invalid, non-image, or empty on disk: not-an-image.txt"
+      ]
+    }
+  },
+  {
+    "test": "required image assets gate package readiness",
+    "passed": false,
+    "observed": {
+      "status": "ready",
+      "missingAssets": null
+    }
+  },
+  {
+    "test": "today export link resolves to a real download",
+    "passed": false,
+    "observed": {
+      "httpStatus": 404
+    }
+  }
+]

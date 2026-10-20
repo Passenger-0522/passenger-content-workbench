@@ -1,0 +1,173 @@
+[
+  {
+    "test": "same actual variant publication counts once",
+    "passed": true,
+    "observed": {
+      "first": true,
+      "second": false,
+      "today": 1
+    }
+  },
+  {
+    "test": "thread retains content and post count separately",
+    "passed": true,
+    "observed": {
+      "published": 1,
+      "target": 10,
+      "original": 1,
+      "quote": 0,
+      "repost": 0,
+      "long": 0,
+      "postCount": 3,
+      "threadPosts": 3,
+      "totalPosts": 3,
+      "threadPostCount": 3
+    }
+  },
+  {
+    "test": "stale import preserves website body",
+    "passed": true,
+    "observed": {
+      "success": true,
+      "receipt": {
+        "receiptId": "rec_xqq3lu1g",
+        "importId": "stale-copy",
+        "projectId": "proj_ct7acx04",
+        "status": "conflict_preserved",
+        "importedAt": "2026-10-10T06:50:16.814Z",
+        "assetsAdded": 0,
+        "conflict": {
+          "isConflict": true,
+          "baseRevision": 1,
+          "currentRevision": 2,
+          "incomingText": "Old external rewrite",
+          "currentText": "Website newer body",
+          "message": "网站正文已在外部工具离线期间被更新至修订 Rev 2，外部任务基于旧版本 Rev 1，已保护网站当前正文并记录差异！"
+        },
+        "warnings": [
+          "网站正文已在外部工具离线期间被更新至修订 Rev 2，外部任务基于旧版本 Rev 1，已保护网站当前正文并记录差异！"
+        ]
+      }
+    }
+  },
+  {
+    "test": "Codex attempt to modify locked text returns explicit rejection",
+    "passed": true,
+    "observed": {
+      "http": 200,
+      "receipt": {
+        "success": true,
+        "receipt": {
+          "receiptId": "rec_d7btqifn",
+          "importId": "codex-copy-locked",
+          "projectId": "proj_ct7acx04",
+          "status": "rejected",
+          "importedAt": "2026-10-10T06:50:16.848Z",
+          "assetsAdded": 0,
+          "conflict": null,
+          "warnings": [
+            "拒绝外部任务修改正文：正文已被锁定保护"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "test": "cannot claim variant saved under nonexistent project",
+    "passed": true,
+    "observed": {
+      "http": 404
+    }
+  },
+  {
+    "test": "local write API requires authentication",
+    "passed": true,
+    "observed": {
+      "http": 401
+    }
+  },
+  {
+    "test": "later readable capture retains body under existing source ID",
+    "passed": true,
+    "observed": {
+      "idSame": true,
+      "body": "# Verified source\n\nOpening evidence.\n\nSpecific workflow paragraph.",
+      "status": "full"
+    }
+  },
+  {
+    "test": "empty unread source cannot become completed placeholder analysis",
+    "passed": true,
+    "observed": {
+      "http": 400,
+      "report": {
+        "error": "拆解报告内容不能为空"
+      }
+    }
+  },
+  {
+    "test": "unknown revenue is null",
+    "passed": true,
+    "observed": {
+      "type": "commercial_order",
+      "title": "Sponsorship fixture",
+      "clientOrPlatform": "Fixture",
+      "amount": null,
+      "amountUnknown": true,
+      "status": "inquiry",
+      "id": "lead_ebtr86jb",
+      "createdAt": "2026-10-10T06:50:16.904Z",
+      "updatedAt": "2026-10-10T06:50:16.904Z"
+    }
+  },
+  {
+    "test": "five platforms keep independent accounts and snapshots",
+    "passed": true,
+    "observed": [
+      {
+        "id": "bm-1791615016921",
+        "platform": "x"
+      },
+      {
+        "id": "bm-1791615016974",
+        "platform": "xiaohongshu"
+      },
+      {
+        "id": "bm-1791615017409",
+        "platform": "gzh"
+      },
+      {
+        "id": "bm-1791615017930",
+        "platform": "douyin"
+      },
+      {
+        "id": "bm-1791615017959",
+        "platform": "channels"
+      }
+    ]
+  },
+  {
+    "test": "failed collection preserves latest valid follower value",
+    "passed": true,
+    "observed": {
+      "latest": {
+        "fansCountRaw": "38000",
+        "fansCount": 38000,
+        "precision": "exact",
+        "source": "manual",
+        "id": "snap_faoe2c6k",
+        "observedAt": "2026-10-10T06:50:17.996Z"
+      },
+      "snapshotCount": 3
+    }
+  },
+  {
+    "test": "corrupted JSON fails explicitly without overwriting",
+    "passed": true,
+    "observed": {
+      "readHttp": 500,
+      "writeHttp": 500,
+      "preserved": true
+    }
+  }
+]

@@ -1,0 +1,2 @@
+这个哥们也太牛逼了吧 他这个通过这个AI去逆向了他的这个空调 然后他的空调好像也只是一个普通的空调 通过WiFi连接的 感觉很牛逼啊 帮我去写一篇短推
+博主 Ilter Canberk (@icanberk) 逆向 WiFi 空调并 vibe coding 状态栏应用，接着用 Codex + Lens Studio 不到 15 分钟移植到 Snap Spectacles AR 眼镜，看一眼空调就能隔空控温

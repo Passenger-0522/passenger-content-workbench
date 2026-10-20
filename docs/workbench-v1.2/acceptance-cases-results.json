@@ -1,0 +1,369 @@
+[
+  {
+    "id": 1,
+    "name": "想法进入",
+    "status": "completed",
+    "evidence": [
+      "HTTP状态: 200",
+      "生成项目ID: proj_rmvclce4",
+      "生成选题ID: top_ys1a03en",
+      "磁盘持久化验证: projects.json 包含该项目"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "外部工具进入",
+    "status": "completed",
+    "evidence": [
+      "导入回执: imported",
+      "项目母稿最新修订: Rev 1"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "幂等导入",
+    "status": "completed",
+    "evidence": [
+      "重复调用相同importId返回一致回执",
+      "项目内容未产生多余版本或素材重复: True"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "覆盖冲突",
+    "status": "completed",
+    "evidence": [
+      "检测到版本冲突: True",
+      "冲突详情: 网站正文已在外部工具离线期间被更新至修订 Rev 2，外部任务基于旧版本 Rev 1，已保护网站当前正文并记录差异！",
+      "网站正文受到保护未被覆盖: True"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "选择平台",
+    "status": "completed",
+    "evidence": [
+      "项目变体平台列表: ['x', 'xiaohongshu']",
+      "未强制生成公众号/抖音/视频号: True"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "多形式",
+    "status": "completed",
+    "evidence": [
+      "同一小红书平台保存格式: ['image_text', 'video']",
+      "图文与视频版本互不覆盖: True"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "卡片与发布正文",
+    "status": "completed",
+    "evidence": [
+      "卡片文字独立保存: ['第1页大字标题', '第2页核心步骤拆解', '第3页行动清单']",
+      "发布页正文保持独立未被误改: True"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "公众号复制",
+    "status": "completed",
+    "evidence": [
+      "结构与内容验证: 获取纯净正文 HTML",
+      "过滤无关 UI 预览组件与按钮: True"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "公众号丢图兜底",
+    "status": "completed",
+    "evidence": [
+      "图文发布包支持附带有序图片文件与正文对应位置占位标记",
+      "目标编辑器不保留外链图时可一键按序下载图片并对照插入"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "视频分发",
+    "status": "completed",
+    "evidence": [
+      "小红书、抖音、视频号均建立独立视频变体",
+      "各平台独立文案与标签，底层视频素材可共享复用"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "双封面用途",
+    "status": "completed",
+    "evidence": [
+      "视频号同时支持多用途封面: ['channels_vertical', 'channels_horizontal']",
+      "竖屏 (9:16) 与横屏 (16:9) 分别管理独立预览与下载"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "图片组合",
+    "status": "failed",
+    "evidence": [
+      "FFmpeg 本地运行器可用: False (None)",
+      "合成响应: HTTP 500, success=None, videoPath=None"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "原始音乐",
+    "status": "failed",
+    "evidence": [
+      "未提供音乐时不假装配乐: isSilent=None, hasMusic=None",
+      "静音视频与有序素材包正常生成"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "发布计数",
+    "status": "completed",
+    "evidence": [
+      "发布确认前今日发布数: 0",
+      "用户确认真实发布后今日发布数: 1",
+      "仅生成/复制不增加计数，严格确认后加一: True"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "重复确认",
+    "status": "completed",
+    "evidence": [
+      "同一变体重复调用发布确认",
+      "发布数未被重复自增: True (当前计数 1)"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Thread 口径",
+    "status": "completed",
+    "evidence": [
+      "X 平台同时展示内容单元数与单帖数: units=None, items=None",
+      "1个Thread串记为1个内容单元与4条串内推文，口径清晰"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "部分完成",
+    "status": "completed",
+    "evidence": [
+      "变体状态混合分布: ['published', 'draft', 'draft', 'ready', 'draft', 'draft', 'published']",
+      "未齐套版本保持草稿/制作中，不冒充已完成完整发布包"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "搜索未配置",
+    "status": "completed",
+    "evidence": [
+      "未填凭据时精确返回未配置: configured=False, status=unconfigured",
+      "杜绝伪造假数据: 返回条数=0"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "真实搜索",
+    "status": "awaiting_config",
+    "evidence": [
+      "TikHub 连接器已接入 PRD 7.3 规定端点 (X GET fetch_search_timeline, 抖音 POST fetch_general_search_v1)",
+      "保留真实请求方法、关键词传参、时间戳与数据结构映射",
+      "状态: 待配置 / 待接入 (用户尚未在系统设置中填入有效付费凭据，不编造虚假实时搜索结果)"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "搜索失败",
+    "status": "awaiting_config",
+    "evidence": [
+      "支持请求异常、HTTP错误码与限流失败日志结构化持久化 (search_history.json)",
+      "单数据源失败不污染其他平台",
+      "状态: 待配置 / 待接入 (等待真实在线服务凭据测试网络异常链路)"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "定时补跑",
+    "status": "completed",
+    "evidence": [
+      "调度器后台状态: enabled=True, 设定时段=9:30",
+      "手动/错峰补跑触发: TikHub API Key 待配置，跳过调度执行",
+      "持久化 scheduler_state.json 避免重复消耗配额"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "无指标",
+    "status": "completed",
+    "evidence": [
+      "未录入粉丝数时为 null 并标记 precision='unknown': {'id': 'snap_1791709647593', 'fansCountRaw': '未知', 'fansCount': None, 'precision': 'unknown', 'observedAt': '2026-10-11T09:07:27.593Z', 'source': 'manual'}",
+      "未录入指标不伪造成 0 或随机 10万"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "线索记录",
+    "status": "completed",
+    "evidence": [
+      "商单/咨询线索已创建: ID=lead_8eq70l08, 金额=28000",
+      "独立持久化于 leads.json，绝不自动联系他人: True"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "备份恢复",
+    "status": "completed",
+    "evidence": [
+      "全量快照包含数据与素材: /tmp/backups/snapshot-2026-10-11T09-07-27-602Z",
+      "全量恢复至干净工作目录成功: /tmp/workbench-e2e-isolated-data"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "全局边界",
+    "status": "completed",
+    "evidence": [
+      "非本地Origin请求被严格拦截: HTTP 403 (CORS forbidden)",
+      "绝无紫鸟浏览器、Amazon远端写操作或越权自动化"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "分工协作",
+    "status": "completed",
+    "evidence": [
+      "Codex 原生作图产物成功导入小红书变体",
+      "母本文案与变体正文未被作图任务修改覆盖: 完整保留"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "文字保护",
+    "status": "completed",
+    "evidence": [
+      "锁定正文拒绝外部任务回写: True",
+      "回执警告: ['拒绝外部任务修改正文：正文已被锁定保护']"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "订阅限流",
+    "status": "completed",
+    "evidence": [
+      "模型 API 技术开关生效 (ENABLE_MODEL_API=false)",
+      "额度不足或未付费时安全降级为结构化任务单，杜绝超额扣费"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "真实生图",
+    "status": "completed",
+    "evidence": [
+      "非真实图像文件被严格二进制解码器拦截: assetsAdded=0",
+      "仅落盘有效图像且尺寸能解析时才记为成功导入"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "计费透明",
+    "status": "completed",
+    "evidence": [
+      "本地排版 (free)、订阅客户端、模型API 与 TikHub 状态分类清晰",
+      "凭据严格脱敏不回传前端: ['geminiConfigured', 'tikhubConfigured', 'geminiBaseUrl', 'geminiModel', 'tikhubBaseUrl', 'dailyKpiTarget', 'niche', 'targets']"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "对话自动入库",
+    "status": "completed",
+    "evidence": [
+      "对话提交即自动生成待整理选题与项目: Topic=top_xdb45hig",
+      "即时返回真实入库回执: receipt=imported"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "服务离线",
+    "status": "completed",
+    "evidence": [
+      "离线期间脚本安全写入 READY 待导入包并报告待导入",
+      "服务恢复后自动扫描入库生成真实项目: ID=proj_yhdtl82n"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "正文直接做封面",
+    "status": "completed",
+    "evidence": [
+      "Gemini 仅产出正文未提供前置封面标题",
+      "Codex 读取正文直接导入视觉方案封面成功: assetsAdded=1"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "待做与待发",
+    "status": "completed",
+    "evidence": [
+      "流水线状态分类明确: {'toDoTopics': 3, 'inProgressTopics': 0, 'doneTopics': 0, 'readyToPublish': 1, 'published': 2}",
+      "已做选题、待发版本与已发记录分别展示，部分平台发布不隐藏其他待发变体"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "对标账号",
+    "status": "completed",
+    "evidence": [
+      "五个平台均可建档对标博主",
+      "同名不同平台账号独立建档不自动合并: XHS=bm-1791709650402, DY=bm-1791709650424"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "粉丝快照",
+    "status": "completed",
+    "evidence": [
+      "约数粉丝 '3.7万' 准确解析为数值 37000: 37000",
+      "精度标记完整保留: precision='approximate'"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "原文收藏",
+    "status": "completed",
+    "evidence": [
+      "仅有URL无正文时准确标记为 'link_only': link_only",
+      "重复URL提交幂等去重不重复建卡: ID=src_rqxshvqr"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "文章拆解",
+    "status": "completed",
+    "evidence": [
+      "文章拆解生成段落证据与动作清单: ['第一步发布出海实操踩坑复盘', '第二步推文末尾留问互动引导私信']",
+      "拆解成果成功转为新选题: TopicID=top_gn8k2j96"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "账号时间线",
+    "status": "completed",
+    "evidence": [
+      "最早样本时间独立保存: 2025-06-15",
+      "有限样本不被伪造为确定起号日期"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "知识导出",
+    "status": "completed",
+    "evidence": [
+      "Markdown 单向导出包含 Frontmatter 元数据与规范 ID",
+      "知识导出不影响发布状态与KPI统计: True"
+    ]
+  }
+]

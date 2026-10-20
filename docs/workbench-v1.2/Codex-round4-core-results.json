@@ -1,0 +1,201 @@
+[
+  {
+    "test": "settings never exposes raw key fields",
+    "passed": true,
+    "observed": [
+      "geminiConfigured",
+      "tikhubConfigured",
+      "geminiBaseUrl",
+      "geminiModel",
+      "tikhubBaseUrl",
+      "dailyKpiTarget",
+      "niche",
+      "targets"
+    ]
+  },
+  {
+    "test": "HTTP capture returns saved IDs and receipt",
+    "passed": true,
+    "observed": {
+      "projectId": "proj_ipfiko8g",
+      "topicId": "top_4qgcn4jt"
+    }
+  },
+  {
+    "test": "asset attaches only to selected variant",
+    "passed": true,
+    "observed": {
+      "coverCounts": [
+        0,
+        1,
+        0
+      ],
+      "receipt": {
+        "success": true,
+        "receipt": {
+          "receiptId": "rec_776gpu46",
+          "importId": "r4c-native-image-probe",
+          "projectId": "proj_ipfiko8g",
+          "topicId": "top_4qgcn4jt",
+          "status": "imported",
+          "importedAt": "2026-10-10T06:49:28.249Z",
+          "assetsAdded": 1,
+          "conflict": null,
+          "warnings": []
+        }
+      }
+    }
+  },
+  {
+    "test": "identical import is idempotent",
+    "passed": true,
+    "observed": "r4c-native-image-probe"
+  },
+  {
+    "test": "non-image asset is rejected",
+    "passed": true,
+    "observed": {
+      "success": true,
+      "receipt": {
+        "receiptId": "rec_gyh9ekfo",
+        "importId": "r4c-invalid-image-probe",
+        "projectId": "proj_ipfiko8g",
+        "topicId": "top_4qgcn4jt",
+        "status": "failed",
+        "importedAt": "2026-10-10T06:49:28.268Z",
+        "assetsAdded": 0,
+        "conflict": null,
+        "warnings": [
+          "Image file invalid, non-image, or empty on disk: not-an-image.txt",
+          "所有声明的图片素材均无效或损坏，未添加任何图片资产"
+        ]
+      }
+    }
+  },
+  {
+    "test": "capture manifest works without prior project ID",
+    "passed": true,
+    "observed": {
+      "success": true,
+      "receipt": {
+        "receiptId": "rec_echbzakc",
+        "importId": "r4c-offline-capture-probe",
+        "projectId": "proj_gehz9xbf",
+        "topicId": "top_7olz86cl",
+        "status": "imported",
+        "importedAt": "2026-10-10T06:49:28.273Z",
+        "assetsAdded": 0,
+        "conflict": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "test": "nonexistent publication cannot increase KPI",
+    "passed": true,
+    "observed": {
+      "error": "项目或版本不存在，无法确认发布"
+    }
+  },
+  {
+    "test": "unknown benchmark has no invented metrics",
+    "passed": true,
+    "observed": {
+      "id": "bm-1791614968280",
+      "name": "Unknown fans fixture",
+      "type": "benchmark",
+      "platform": "gzh",
+      "fansCount": "未知",
+      "medianEngagement": 0,
+      "worksCount": 0,
+      "viralCount": 0,
+      "lastSyncedAt": "刚刚添加",
+      "snapshots": [
+        {
+          "id": "snap_1791614968279",
+          "fansCountRaw": "未知",
+          "fansCount": null,
+          "precision": "unknown",
+          "observedAt": "2026-10-10T06:49:28.279Z",
+          "source": "manual"
+        }
+      ],
+      "latestSnapshot": {
+        "id": "snap_1791614968279",
+        "fansCountRaw": "未知",
+        "fansCount": null,
+        "precision": "unknown",
+        "observedAt": "2026-10-10T06:49:28.279Z",
+        "source": "manual"
+      },
+      "trendData": [],
+      "works": []
+    }
+  },
+  {
+    "test": "approximate follower value retains precision",
+    "passed": true,
+    "observed": {
+      "id": "snap_1791614968284",
+      "fansCountRaw": "3.7万",
+      "fansCount": 37000,
+      "precision": "approximate",
+      "observedAt": "2026-10-10T06:49:28.284Z",
+      "source": "manual"
+    }
+  },
+  {
+    "test": "URL-only source is not labelled full article",
+    "passed": true,
+    "observed": {
+      "url": "https://example.org/acceptance-fixture",
+      "canonicalId": "https://example.org/acceptance-fixture",
+      "author": "未知作者",
+      "rawMarkdown": "",
+      "readabilityStatus": "link_only",
+      "isBenchmarkArticle": false,
+      "id": "src_0ex7pckc",
+      "capturedAt": "2026-10-10T06:48:38.770Z",
+      "deconstructions": []
+    }
+  },
+  {
+    "test": "untrusted web origin cannot mutate data",
+    "passed": true,
+    "observed": {
+      "httpStatus": 403
+    }
+  },
+  {
+    "test": "backup contains actual referenced media",
+    "passed": true,
+    "observed": {
+      "success": true,
+      "backupPath": "/Users/liangxiaoling/Documents/Playground/output/self-media-workbench-2026-10-10/验收证据/round4/backups/snapshot-2026-10-10T06-49-28-292Z",
+      "backupDir": "/Users/liangxiaoling/Documents/Playground/output/self-media-workbench-2026-10-10/验收证据/round4/backups/snapshot-2026-10-10T06-49-28-292Z",
+      "timestamp": "2026-10-10T06-49-28-292Z",
+      "files": [
+        "benchmarks.json",
+        "incoming",
+        "kpi_logs.json",
+        "matrix_packs.json",
+        "persona.json",
+        "posts.json",
+        "projects.json",
+        "receipts",
+        "scheduler_state.json",
+        "settings.json",
+        "sources.json",
+        "topics.json"
+      ]
+    }
+  },
+  {
+    "test": "model API stays disabled even if key exists",
+    "passed": true,
+    "observed": {
+      "localFakeProviderCalls": 0,
+      "httpStatus": 200
+    }
+  }
+]

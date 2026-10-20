@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791777261984_wdz7w1",
+  "projectId": "proj_xw3msiln",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "AI逆向空调打造Mac状态栏与AR眼镜空间交互",
+  "sourceUrl": "https://x.com/icanberk",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791705536107_sl8svj",
+  "projectId": "proj_swo92cmi",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "X语言设置去掉英语开启全自动翻译",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

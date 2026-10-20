@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791694276789_t22nn5",
+  "projectId": "proj_4itrc476",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "Google发布Gemini企业Agent支持独立同事身份",
+  "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

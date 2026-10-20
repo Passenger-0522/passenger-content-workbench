@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791695540160_06dja4",
+  "projectId": "proj_mlzhqins",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "Cursor Pro 免费领取福利",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

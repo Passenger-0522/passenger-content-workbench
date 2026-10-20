@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791864863557_10iir7",
+  "projectId": "proj_wfe9e3y8",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "esp32-iphone-agent 开源项目短推",
+  "sourceUrl": "https://github.com/onehumanbeing/esp32-iphone-agent",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

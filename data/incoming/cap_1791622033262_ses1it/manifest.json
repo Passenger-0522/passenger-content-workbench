@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791622033262_ses1it",
+  "projectId": "proj_hd4duk6d",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "推特内容默认Gemini写作与Codex配图",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

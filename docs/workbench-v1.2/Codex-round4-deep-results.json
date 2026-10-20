@@ -1,0 +1,82 @@
+[
+  {
+    "test": "untrusted Host cannot read auth token",
+    "passed": true,
+    "observed": {
+      "httpStatus": 403,
+      "tokenWasReturned": false
+    }
+  },
+  {
+    "test": "wrong token denied /api/projects",
+    "passed": true,
+    "observed": {
+      "httpStatus": 401
+    }
+  },
+  {
+    "test": "wrong token denied /api/sources",
+    "passed": true,
+    "observed": {
+      "httpStatus": 401
+    }
+  },
+  {
+    "test": "wrong token denied /api/leads",
+    "passed": true,
+    "observed": {
+      "httpStatus": 401
+    }
+  },
+  {
+    "test": "media GET rejects symlink escape",
+    "passed": true,
+    "observed": {
+      "httpStatus": 403
+    }
+  },
+  {
+    "test": "truncated PNG is not accepted as real asset",
+    "passed": true,
+    "observed": {
+      "httpStatus": 200,
+      "receipt": {
+        "receiptId": "rec_cvk7hy29",
+        "importId": "r4-truncated",
+        "projectId": "proj_1308lu25",
+        "status": "failed",
+        "importedAt": "2026-10-10T06:51:37.421Z",
+        "assetsAdded": 0,
+        "conflict": null,
+        "warnings": [
+          "Image file invalid, non-image, or empty on disk: bad.png",
+          "所有声明的图片素材均无效或损坏，未添加任何图片资产"
+        ]
+      }
+    }
+  },
+  {
+    "test": "all-invalid media is not imported-success",
+    "passed": true,
+    "observed": {
+      "status": "failed",
+      "assetsAdded": 0
+    }
+  },
+  {
+    "test": "image-text missing images cannot be ready",
+    "passed": true,
+    "observed": {
+      "httpStatus": 400,
+      "error": "变体尚未齐套，无法标记为已就绪 (ready)：缺少必要素材 [covers]"
+    }
+  },
+  {
+    "test": "today export link returns real export",
+    "passed": true,
+    "observed": {
+      "httpStatus": 200,
+      "bytes": 2549
+    }
+  }
+]

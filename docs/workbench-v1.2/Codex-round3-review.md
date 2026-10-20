@@ -1,0 +1,27 @@
+# Codex round 3 gate - implementation still incomplete
+
+Fresh isolated server 3018, new data directory, token obtained via actual handshake. Original 13 core + 12 extended tests ALL PASS, including random payload with missing credential, explicit locked Codex copy rejection, truthful fan-history preservation, corrupt JSON refusal and separate thread count. These are actual results, not report edits.
+
+Deeper independent checks: 3 passed / 6 failed (Codex-round3-deep-results.json):
+
+1. GET /api/auth/token with Host fixture-rebind.invalid still returns HTTP200 and a token. The condition (!isLoopbackHost && !isLoopbackAddress(remoteIp)) uses AND, so a DNS-rebinding request arriving from loopback bypasses it. Reject unsafe/missing Host AND non-loopback socket; validate Host globally as well as Origin.
+2. GET /api/assets/incoming/symlink-probe/outside.png follows a symlink OUTSIDE asset root and returns the outside file. Resolve and validate actual realpath, reject symlink escape in every asset/import/video/restore path, validate IDs and reference filenames.
+3. A truncated PNG containing only signature + fake IHDR is accepted as real image (1086x1448, assetsAdded=1). Use actual decoding/FFmpeg or vetted image decoder to validate the whole file. Header-only inspection cannot certify an image.
+4. All-invalid image package returns status imported/zero assets. Must be rejected or explicit failed/partial, never mark image generation as success without actual assets. Validate package before mutating DB and committing receipt.
+5. PATCH an image_text variant with no required valid images can set status ready. Require per-format asset completeness and report missing list; derive project partial/ready summary, do not claim complete bundle with missing images.
+6. Homepage link /api/export/today returns404. Implement actual ordered export/download and expose honest errors.
+
+Observed UI and local P0 gaps still to finish (please verify ALL 40 cases, not just narrow fixtures):
+
+- Today still says fixed >=20 posts and sidebar has hardcoded VideoChannel 1 pending, X3, other2, 7days3, Today缺2. Show five-platform configurable 10-15 X/1-2 others actual confirmations, done-vs-published, due/overdue/unscheduled and independent thread posts. Remove unsupported B站/YouTube/portal fake counts from core flow.
+- Actual scheduling records and Today queue need persistent planned times and content-level navigation.
+- Actual image and video file import (streamed video), shared base video across three video variants, playable preview and download, independent per-use covers with editable ratio/size; actual ordered images package and silent compose must be wired into UI. URL entry or prompt-card mockups do not satisfy media import. Native PNG + landscape PNG + MP4 fixtures exist in acceptance-fixtures/.
+- Gzh article HTML/plain clipboard must contain body only and actual inline images, local editable Markdown/HTML download, ordered image fallback with anchor positions. Actual external editor pasting stays user verification. X long article needs body-only copy/preview. Card-page edits must not alter publish body.
+- Sources must fetch readable public link (or explicitly partial/link_only), preserve immutable capture versions/hash/time, import evidence-backed Gemini analysis, convert report to a linked new to_do topic. Finite-sample account timeline must show range/earliest observed and no invented start date. Sources/deconstruction Markdown export must retain source IDs/URLs/hash and not change publish state.
+- Scheduled search currently counts returned items but does not persist them; X at data.data is parsed by Douyin parser. Fix platform-specific parsing and stable source URLs/timestamps/dedup. Configure search terms/platforms/limits/time, background one bounded catch-up and honest persistent trace/status. No real TikHub credentials available: live tests remain pending config, not claimed pass. See Codex-search-structural-results.json.
+- Preserve raw posts/22 Markdown files, preferences, existing 11 benchmark accounts. Provide legacy archive browsing/search and label legacy metrics unverified. Do not migrate old output count into publications.
+- Persist Antigravity automatic capture rules and a robust script (HTTP errors/non-receipt not success). Offline must preserve custom title/sourceUrl/platform/raw text; online returns true IDs. Ensure native/CLI daily chat knows to invoke it. Rule directory .agents/rules/*.md requires trigger: always_on frontmatter, or root AGENTS.md works; official docs verified at https://www.antigravity.google/docs/rules/.
+- Expose honest billing routes and model role; native client/official CLI subscriptions preferred, model API remains disabled, no proxy or paid fallback. Rate limit task status must pause/retry with saved handoff, not generate fake content. Skill registry must mark actual used skill (native fixture is imagegen; do not falsely label it punk-cover just because of a default).
+- Native image/actual video generation is done by Codex subscription tool; core silent MP4 decode and clean restore of34 files already pass. Keep complete asset/settings/template/publication backup and exact restoration, no Vault writes or platform draft/publication operations.
+
+Do full local implementation and test actual UI workflows. Remove any remaining fixture-specific source branches. Build + tsc + documented true end-to-end evidence required. Keep your report separate from Codex independent report; do not overwrite external acceptance-cases.json.

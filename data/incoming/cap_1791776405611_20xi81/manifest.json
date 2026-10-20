@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791776405611_20xi81",
+  "projectId": "proj_yugl4k86",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "OpenAI 挤牙膏吐槽：GPT-6.1 默认上下文从 272k 提至 500k",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

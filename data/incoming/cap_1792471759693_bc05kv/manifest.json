@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1792471759693_bc05kv",
+  "projectId": "proj_gs3i71a8",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "老马点名表扬的Grok Bot讲解视频与商业化构想",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

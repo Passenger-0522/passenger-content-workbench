@@ -1,0 +1,19 @@
+{
+  "titleStyles": {
+    "wocao_emotion": 40,
+    "data_metrics": 35,
+    "cognitive_action": 25
+  },
+  "punctuationRules": {
+    "noPeriod": true,
+    "noDash": true,
+    "naturalParagraph": true
+  },
+  "coverPreferences": {
+    "activeSkills": ["punk-cover", "punk-ip-video-cover"],
+    "channelsVideoNeedsBoth": true,
+    "defaultVerticalRatio": "3:4",
+    "defaultHorizontalRatio": "16:9"
+  },
+  "selectionHistory": []
+}

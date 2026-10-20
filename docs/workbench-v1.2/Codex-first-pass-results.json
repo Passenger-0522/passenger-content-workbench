@@ -1,0 +1,190 @@
+[
+  {
+    "test": "settings never exposes raw key fields",
+    "passed": true,
+    "observed": [
+      "geminiConfigured",
+      "tikhubConfigured",
+      "geminiBaseUrl",
+      "geminiModel",
+      "tikhubBaseUrl",
+      "dailyKpiTarget",
+      "niche",
+      "targets"
+    ]
+  },
+  {
+    "test": "HTTP capture returns saved IDs and receipt",
+    "passed": true,
+    "observed": {
+      "projectId": "proj_j206me9z",
+      "topicId": "top_1qtfo9jj"
+    }
+  },
+  {
+    "test": "asset attaches only to selected variant",
+    "passed": false,
+    "observed": {
+      "coverCounts": [
+        1,
+        1,
+        1
+      ],
+      "receipt": {
+        "success": true,
+        "receipt": {
+          "receiptId": "rec_xxo807ij",
+          "importId": "native-image-probe",
+          "projectId": "proj_j206me9z",
+          "status": "imported",
+          "importedAt": "2026-10-10T05:20:17.378Z",
+          "assetsAdded": 3,
+          "conflict": null,
+          "warnings": []
+        }
+      }
+    }
+  },
+  {
+    "test": "identical import is idempotent",
+    "passed": true,
+    "observed": "native-image-probe"
+  },
+  {
+    "test": "non-image asset is rejected",
+    "passed": false,
+    "observed": {
+      "success": true,
+      "receipt": {
+        "receiptId": "rec_ue2brize",
+        "importId": "invalid-image-probe",
+        "projectId": "proj_j206me9z",
+        "status": "imported",
+        "importedAt": "2026-10-10T05:20:18.633Z",
+        "assetsAdded": 3,
+        "conflict": null,
+        "warnings": []
+      }
+    }
+  },
+  {
+    "test": "capture manifest works without prior project ID",
+    "passed": false,
+    "observed": {
+      "error": "Target project not found: undefined"
+    }
+  },
+  {
+    "test": "nonexistent publication cannot increase KPI",
+    "passed": false,
+    "observed": {
+      "success": true,
+      "record": {
+        "id": "pub_xg9w7gla",
+        "projectId": "does-not-exist",
+        "variantId": "does-not-exist",
+        "platform": "x",
+        "format": "short_post",
+        "title": "未命名内容",
+        "publishedAt": "2026-10-10T05:20:18.786Z",
+        "confirmedBy": "user"
+      },
+      "isNew": true
+    }
+  },
+  {
+    "test": "unknown benchmark has no invented metrics",
+    "passed": false,
+    "observed": {
+      "id": "bm-1791609618850",
+      "name": "Unknown fans fixture",
+      "type": "benchmark",
+      "platform": "gzh",
+      "fansCount": "10万粉",
+      "medianEngagement": 2000,
+      "worksCount": 27,
+      "viralCount": 7,
+      "lastSyncedAt": "刚刚添加",
+      "snapshots": [
+        {
+          "id": "snap_1791609618850",
+          "fansCountRaw": "10万粉",
+          "fansCount": 100000,
+          "precision": "approximate",
+          "observedAt": "2026-10-10T05:20:18.850Z",
+          "source": "manual"
+        }
+      ],
+      "trendData": [
+        1200,
+        2400,
+        1800,
+        4200,
+        2200
+      ],
+      "works": []
+    }
+  },
+  {
+    "test": "approximate follower value retains precision",
+    "passed": false,
+    "observed": {
+      "id": "snap_1791609618867",
+      "fansCountRaw": "3.7万",
+      "fansCount": 30000,
+      "precision": "approximate",
+      "observedAt": "2026-10-10T05:20:18.867Z",
+      "source": "manual"
+    }
+  },
+  {
+    "test": "URL-only source is not labelled full article",
+    "passed": false,
+    "observed": {
+      "url": "https://example.org/acceptance-fixture",
+      "canonicalId": "https://example.org/acceptance-fixture",
+      "author": "未知作者",
+      "rawMarkdown": "",
+      "readabilityStatus": "full",
+      "isBenchmarkArticle": false,
+      "id": "src_odpbwbif",
+      "capturedAt": "2026-10-10T05:20:18.890Z",
+      "deconstructions": []
+    }
+  },
+  {
+    "test": "untrusted web origin cannot mutate data",
+    "passed": false,
+    "observed": {
+      "httpStatus": 200
+    }
+  },
+  {
+    "test": "backup contains actual referenced media",
+    "passed": false,
+    "observed": {
+      "success": true,
+      "backupPath": "/Users/liangxiaoling/Documents/Playground/output/self-media-workbench-2026-10-10/验收证据/backups/snapshot-2026-10-10T05-20-18-961Z",
+      "timestamp": "2026-10-10T05-20-18-961Z",
+      "files": [
+        "benchmarks.json",
+        "handoff",
+        "incoming",
+        "projects.json",
+        "publish_records.json",
+        "receipts",
+        "settings.json",
+        "sources.json",
+        "topics.json"
+      ]
+    }
+  },
+  {
+    "test": "model API stays disabled even if key exists",
+    "passed": false,
+    "observed": {
+      "localFakeProviderCalls": 1,
+      "httpStatus": 200
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791714825309_5o8oau",
+  "projectId": "proj_2p9b3kf5",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "小说漫画漫剧成本优化思路与技能开源",
+  "sourceUrl": "https://github.com/aiskyhub/novel_to_comic",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

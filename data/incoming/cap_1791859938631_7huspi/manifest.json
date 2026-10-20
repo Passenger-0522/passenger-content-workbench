@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791859938631_7huspi",
+  "projectId": "proj_6mthgpcx",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "ESP32全家族主力型号选型全解：从入门到AI硬件量产",
+  "platform": "gzh",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

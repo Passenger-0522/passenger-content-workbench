@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791861944139_ye2mim",
+  "projectId": "proj_ilqasifq",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "ESP32 最火的 16 个高星开源 GitHub 项目合集",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}

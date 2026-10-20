@@ -1,0 +1,16 @@
+{
+  "geminiApiKey": "",
+  "geminiBaseUrl": "https://generativelanguage.googleapis.com",
+  "geminiModel": "gemini-2.5-flash",
+  "tikhubApiKey": "",
+  "tikhubBaseUrl": "https://api.tikhub.io",
+  "dailyKpiTarget": 26,
+  "niche": "AI与效率工具 / 个人超级个体 / 职场认知",
+  "targets": {
+    "x": 18,
+    "xiaohongshu": 2,
+    "gzh": 2,
+    "douyin": 2,
+    "channels": 2
+  }
+}

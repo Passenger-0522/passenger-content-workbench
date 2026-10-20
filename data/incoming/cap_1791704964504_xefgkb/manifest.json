@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.2",
+  "importId": "cap_1791704964504_xefgkb",
+  "projectId": "proj_vc2cyiyj",
+  "baseRevision": 1,
+  "executionParty": "antigravity",
+  "title": "沉浸式翻译停摆原因与解决方案",
+  "platform": "x",
+  "files": {
+    "copy": "copy/master.md"
+  },
+  "reviewNotes": "Antigravity 对话捕获流水线入库"
+}
